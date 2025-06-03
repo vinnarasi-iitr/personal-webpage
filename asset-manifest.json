@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.d55200b9.css",
+    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.0e136dce.js",
+    "static/js/453.d12ccda0.chunk.js": "/Vinnarasi-R-portfolio-webpage/static/js/453.d12ccda0.chunk.js",
+    "static/media/image.png": "/Vinnarasi-R-portfolio-webpage/static/media/image.d0814446986bd9d149bb.png",
+    "index.html": "/Vinnarasi-R-portfolio-webpage/index.html",
+    "main.d55200b9.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.d55200b9.css.map",
+    "main.0e136dce.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.0e136dce.js.map",
+    "453.d12ccda0.chunk.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/453.d12ccda0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d55200b9.css",
+    "static/js/main.0e136dce.js"
+  ]
+}

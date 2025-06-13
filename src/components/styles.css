@@ -217,3 +217,27 @@
     border-radius: 50%;
     z-index: -1;
 }
+
+.memberbox {
+    height: 370px;
+    width: 360px;
+    margin: 0 20px 40px 20px;
+    box-shadow: 0 0 10px darkslategrey;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0 cover 30%;
+}
+
+.memberimg {
+    max-width: 80%;
+    object-fit: contain;
+    margin: 10px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.memimgbox {
+    height: 200px;
+}

@@ -7,8 +7,9 @@ export default function Navbar() {
     <nav className='navbar'>
       <div>
         <div className="nav-title">
-          <img width='80px' src={require('./5.png')} alt="" />
-          Water Extreames Research Group</div>
+          <img width='40px' style={{borderRadius:'50%',padding:'2px'}} src={require('../assets/werg-logo.png')} alt="" />
+          .  Water Extreames Research Group
+        </div>
       </div>
       <div className='nav-link-container'>
         <div><Link className="nav-links" to="/">Home</Link></div>

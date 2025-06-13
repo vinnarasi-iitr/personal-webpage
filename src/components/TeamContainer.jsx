@@ -25,7 +25,7 @@ export default function TeamContainer() {
                             "Phd Type: Full Time (Project)"
                             
                         ],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [
                             { name: link_logos.linkedin, link: 'https://www.linkedin.com/in/sai-bargav-reddy-2257b2172/' },
                             {
@@ -49,7 +49,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -62,7 +62,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -75,7 +75,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -88,7 +88,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -101,7 +101,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -120,7 +120,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -133,7 +133,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -146,7 +146,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -159,7 +159,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -172,7 +172,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -185,7 +185,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -204,7 +204,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -217,7 +217,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -230,7 +230,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -243,7 +243,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -256,7 +256,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -269,7 +269,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -288,7 +288,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -301,7 +301,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -314,7 +314,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -327,7 +327,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -340,7 +340,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '
@@ -353,7 +353,7 @@ export default function TeamContainer() {
                         name: "Vinnarasi Rajendran",
                         designation: "Principal Investigator",
                         description: ["Dept. of Civil Engineering, IIT Roorkee"],
-                        src: require('../assets/image.png'),
+                        src: require('../assets/doremon.png'),
                         links: [{
                             name: 'github',
                             link: 'https://twitter.com/BargavReddy23 '

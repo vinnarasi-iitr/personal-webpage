@@ -9,6 +9,7 @@ import Achievements from './components/Achievements';
 import ResearchProjects from './components/ResearchProjects';
 import Team from './components/Team';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
       return (
@@ -18,6 +19,7 @@ function App() {
                         <Routes>
                               <Route path='/team' element={<Team />} />
                         </Routes>
+                        <Footer/>
                   </Router>
 
             </div>

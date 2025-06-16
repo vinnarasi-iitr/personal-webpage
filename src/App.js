@@ -10,6 +10,7 @@ import ResearchProjects from './components/ResearchProjects';
 import Team from './components/Team';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
+import Home from './components/home';
 
 function App() {
       return (
@@ -17,7 +18,9 @@ function App() {
                   <Router>
                         <Navbar />
                         <Routes>
+                              <Route path='/' element={<Home/>} />
                               <Route path='/team' element={<Team />} />
+                              <Route path='/publication' element={<Publications/>} />
                         </Routes>
                         <Footer/>
                   </Router>

@@ -5,6 +5,8 @@
 }
 
 :root {
+    --primary: #9F2042;
+    --secondary: #F8F4E1;
     --emerald-green: #50C878;
     --gold: #FFD700;
     --sunburst: #FFFD37;
@@ -88,7 +90,9 @@
     justify-content: space-between;
     padding: 20px;
     border-bottom: 2px solid black;
-    background-color: var(--purple-light);
+    /* background-color: var(--purple-light); */
+    background-color: var(--primary);
+    color: var(--secondary);
     /* background: linear-gradient(to right ,var(--blue-vibrant), var(--yellow-vibrant)); */
 
 }
@@ -103,13 +107,14 @@
     font-size: 20px;
     padding: 10px 20px;
     cursor: pointer;
-    color: black;
+    /* color: black; */
+    color: var(--secondary);
     text-decoration: none;
 
     &:hover {
         /* color: var(--red-dark); */
         border-bottom: 2px solid purple;
-        background: linear-gradient(to top,var(--green-light),var(--purple-light));
+        background: linear-gradient(to top, var(--green-light), var(--purple-light));
 
     }
 }
@@ -128,20 +133,12 @@
     justify-content: space-evenly;
 }
 
-.profile-container {
-    width: 30%;
-    min-width: min(400px,95%);
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 20px auto;
-
-}
 
 .info-container {
     width: 50%;
-    min-width: min(400px,95%);
+    min-width: min(400px, 95%);
     padding: 30px;
-    height: 540px;
+    height: 600px;
     border: 2px solid black;
     box-shadow: 0 0 10px var(--emerald-green);
     border-radius: 20px;
@@ -205,7 +202,7 @@
     /* border: 20px solid var(--emerald-green); */
 }
 
-.profile-div::before {
+/* .profile-div::before {
     content: '';
     position: absolute;
     inset: 0;
@@ -216,7 +213,7 @@
     padding: 30px;
     border-radius: 50%;
     z-index: -1;
-}
+} */
 
 .memberbox {
     height: 370px;
@@ -247,4 +244,51 @@
     font-size: 16px;
     text-align: justify;
     font-weight: 500;
+}
+
+.mam-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10%;
+}
+
+.profile-container {
+    flex: 1;
+    margin: 20px;
+    min-width: min(400px, 95%);
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+.description-container {
+    flex: 2;
+    margin: 30px;
+    min-width: 380px;
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.sponser-updates-container {
+    display: flex;
+    padding: 20px 10%;
+}
+
+.sponsers {
+    flex: 1;
+    margin: 20px;
+    height: 540px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.lab-updates {
+    flex: 1;
+    margin: 20px;
+    height: 540px;
+    border: 2px solid black;
+    border-radius: 20px;
 }

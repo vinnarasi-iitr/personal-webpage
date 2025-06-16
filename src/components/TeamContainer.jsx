@@ -12,7 +12,7 @@ export default function TeamContainer() {
   };
   return (
     <div>
-      <p className="title_2">Phd and Masters Students</p>
+      <p className="title_2">Phd Students</p>
       <div
         style={{
           display: "flex",
@@ -25,8 +25,15 @@ export default function TeamContainer() {
             name: "Muskula Sai Bargav Reddy",
             designation: "",
             description: [
-              "PhD Topic: Hydrometeorological extremes and their influence on nutrient dynamic ",
-              "Research Interests: Land atmospheric interactions, hydrometeorological extremes, earth system modelling, Climate Change",
+              <>
+                <strong> PhD Topic: </strong>Hydrometeorological extremes and
+                their influence on nutrient dynamic
+              </>,
+              <>
+                <strong>Research Interests: </strong>Land atmospheric
+                interactions, hydrometeorological extremes, earth system
+                modelling, Climate Change"
+              </>,
               "Email: muskula_sbr@ce.iitr.ac.in ",
               "Phd Type: Full Time (Project)",
             ],
@@ -57,10 +64,16 @@ export default function TeamContainer() {
             name: "Usman Aliakbar Mohseni",
             designation: "",
             description: [
-              "PhD Topic: Dynamic Risk Assessment of Compound Hydrometeorological Extremes under Changing Climate",
-              "Research Interests: compound extremes, teleconnections, Climate change Impact, and the application of hydrologic and hydraulic modelling in the field of water resources",
-              "Email: mohseni_ua@ce.iitr.ac.in",
-              "Phd Type: Full Time",
+              <>
+                <strong>PhD Topic:</strong> Dynamic Risk Assessment of Compound
+                Hydrometeorological Extremes under Changing Climate"
+              </>,
+              <>
+                <strong>Research Interests: </strong>Compound extremes,
+                teleconnections, Climate change Impact, and the application of
+                hydrologic and hydraulic modelling in the field of water
+                resources
+              </>,
             ],
             src: require("../assets/usmaan.png"),
             links: [
@@ -86,19 +99,185 @@ export default function TeamContainer() {
 
         <MemTemplate
           data={{
+            name: "Pallavi Kumari",
+            designation: "",
+            description: [
+              <>
+                <strong>PhD Topic:</strong> Characterizing Controlling Factors
+                of Flash Drought and Early Warning System Towards Sustainable
+                Ecosystem
+              </>,
+              <>
+                <strong>Research Interests: </strong>Hydro-Climatological
+                Extremes, Flash Drought and Long-term Conventional Drought
+                Dynamics, Causal Analysis and Impact Assessment, Drought
+                Prediction, Hydrological Modelling
+              </>,
+            ],
+            src: require("../assets/usmaan.png"),
+            links: [
+              {
+                name: link_logos.web,
+                link: "https://sites.google.com/ce.iitr.ac.in/pallavi-kumari/home",
+              },
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/pallavi-kumari2835 ",
+              },
+              {
+                name: link_logos.google_scholar,
+                link: "https://scholar.google.com/citations?user=F_90ZHYAAAAJ&hl=en&authuser=2 ",
+              },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Pallavi-Kumari-8",
+              },
+              {
+                name: link_logos.twitter,
+                link: "https://x.com/Pallavikumari_?t=YLCs8e0H_tPELTCs7FrsaQ&s=08",
+              },
+            ],
+          }}
+        />
+
+        <MemTemplate
+          data={{
+            name: "Aakanksha Agrawal",
+            designation: "",
+            description: [
+              <>
+                <strong>PhD Topic:</strong> Investigating the Role of
+                Urbanisation on Urban Heat Island & Extreme Precipitation using
+                Mesoscale Modelling
+              </>,
+              <>
+                <strong>Research Interests: </strong>Downscaling, Urban
+                Hydrology
+              </>,
+            ],
+            src: require("../assets/usmaan.png"),
+            links: [
+              {
+                name: link_logos.web,
+                link: "https://sites.google.com/ce.iitr.ac.in/aakankshaagrawal/about",
+              },
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/aakanksha-agrawal-680016214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+              },
+              {
+                name: link_logos.google_scholar,
+                link: "https://scholar.google.com/citations?user=sFquEB4AAAAJ&hl=en ",
+              },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Aakanksha-Agrawal?ev=hdr_xprf",
+              },
+            ],
+          }}
+        />
+        <MemTemplate
+          data={{
+            name: "Vinnarasi Rajendran",
+            designation: "",
+            description: ["Dept. of Civil Engineering, IIT Roorkee"],
+            src: require("../assets/doremon.png"),
+            links: [
+              {
+                name: "github",
+                link: "https://twitter.com/BargavReddy23 ",
+              },
+            ],
+          }}
+        />
+      </div>
+
+      <p className="title_2">Master Students</p>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          flexWrap: "wrap",
+          padding: "30px 5%",
+        }}>
+        <MemTemplate
+          data={{
             name: "Suneel Kumar",
             designation: "",
             description: [
-              "Masters Thesis Title: Drought Characterization and Propagation Under Changing Climate.",
+              <>
+                <strong> PhD Topic: </strong>Hydrometeorological extremes and
+                their influence on nutrient dynamic
+              </>,
               "Email: suneel_k@ce.iitr.ac.in",
             ],
             src: require("../assets/doremon.png"),
-            // links: [
-            //   {
-            //     name: "github",
-            //     link: "https://twitter.com/BargavReddy23 ",
-            //   },
-            //],
+            links: [
+              {
+                name: "github",
+                link: "https://twitter.com/BargavReddy23 ",
+              },
+            ],
+          }}
+        />
+        <MemTemplate
+          data={{
+            name: "Mayank Singh Gailakoti",
+            designation: "",
+            description: [
+              <>
+                <strong> PhD Topic: </strong>Hydrometeorological extremes and
+                their influence on nutrient dynamic
+              </>,
+              "Email: suneel_k@ce.iitr.ac.in",
+            ],
+            src: require("../assets/doremon.png"),
+            links: [
+              {
+                name: "github",
+                link: "https://twitter.com/BargavReddy23 ",
+              },
+            ],
+          }}
+        />
+
+        <MemTemplate
+          data={{
+            name: "Usman Aliakbar Mohseni",
+            designation: "",
+            description: [
+              <>
+                <strong>PhD Topic:</strong> Dynamic Risk Assessment of Compound
+                Hydrometeorological Extremes under Changing Climate"
+              </>,
+              <>
+                <strong>Research Interests: </strong>Compound extremes,
+                teleconnections, Climate change Impact, and the application of
+                hydrologic and hydraulic modelling in the field of water
+                resources
+              </>,
+              "Email: mohseni_ua@ce.iitr.ac.in",
+              "Phd Type: Full Time",
+            ],
+            src: require("../assets/usmaan.png"),
+            links: [
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
+              },
+              {
+                name: link_logos.google_scholar,
+                link: "https://scholar.google.com/citations?hl=en&user=UUDfCzw6EsIC ",
+              },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
+              },
+              {
+                name: link_logos.twitter,
+                link: "https://x.com/M2291003030379 ",
+              },
+            ],
           }}
         />
 
@@ -168,22 +347,22 @@ export default function TeamContainer() {
             ],
             src: require("../assets/nikhil.jpg"),
             links: [
-              //   {
-              //     name: link_logos.linkedin,
-              //     link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
-              //   },
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
+              },
               {
                 name: link_logos.google_scholar,
                 link: "https://scholar.google.com/citations?user=Nqag7SAAAAAJ&hl=en&oi=ao",
               },
-              //   {
-              //     name: link_logos.reasearch_gate,
-              //     link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
-              //   },
-              //   {
-              //     name: link_logos.twitter,
-              //     link: "https://x.com/M2291003030379 ",
-              //  },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
+              },
+              {
+                name: link_logos.twitter,
+                link: "https://x.com/M2291003030379 ",
+              },
             ],
           }}
         />

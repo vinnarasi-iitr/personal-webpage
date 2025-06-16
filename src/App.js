@@ -11,6 +11,7 @@ import Team from './components/Team';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Footer from './components/Footer';
 import Home from './components/home';
+import Research from './components/Research';
 
 function App() {
       return (
@@ -21,6 +22,7 @@ function App() {
                               <Route path='/' element={<Home/>} />
                               <Route path='/team' element={<Team />} />
                               <Route path='/publication' element={<Publications/>} />
+                              <Route path='/research' element={<Research/>} />
                         </Routes>
                         <Footer/>
                   </Router>

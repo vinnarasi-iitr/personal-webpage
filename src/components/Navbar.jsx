@@ -17,7 +17,7 @@ export default function Navbar() {
         <div><Link className="nav-links" to="/research">Research</Link></div>
         <div><Link className="nav-links" to="/team">Team</Link></div>
         <div><Link className="nav-links" to="/publication">Publications</Link></div>
-        <div><Link className="nav-links" to="/research-projects">Research Projects</Link></div>
+        {/* <div><Link className="nav-links" to="/research-projects">Research Projects</Link></div> */}
         <div><Link className="nav-links" to="/tools">Tools</Link></div>
         <div><Link className="nav-links" to="/gallary">Gallery</Link></div>
 

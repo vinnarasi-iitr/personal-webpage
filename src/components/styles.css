@@ -89,10 +89,11 @@
     top: 0;
     justify-content: space-between;
     padding: 20px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid var(--secondary);
     /* background-color: var(--purple-light); */
     background-color: var(--primary);
     color: var(--secondary);
+    z-index: 10;
     /* background: linear-gradient(to right ,var(--blue-vibrant), var(--yellow-vibrant)); */
 
 }
@@ -165,6 +166,11 @@
     font-size: 20px;
     color: gray;
     font-weight: 500;
+}
+.title_4{
+    font-size: 28px;
+    color: red;
+    text-align: start;
 }
 
 .text-1 {
@@ -280,6 +286,7 @@
 .sponsers {
     flex: 1;
     margin: 20px;
+    padding: 20px;
     height: 540px;
     border: 2px solid black;
     border-radius: 20px;
@@ -289,6 +296,14 @@
     flex: 1;
     margin: 20px;
     height: 540px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+.home-image-container{
+    margin: 20px 10%;
+    height: 400px;
     border: 2px solid black;
     border-radius: 20px;
 }

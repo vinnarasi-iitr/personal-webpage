@@ -22,6 +22,81 @@ export default function TeamContainer() {
         }}>
         <MemTemplate
           data={{
+            name: "Dikshant Bodana",
+            designation: "",
+            description: [
+              <>
+                <strong> PhD Topic: </strong>Eco-Hydrological Modelling Approach
+                for Rejuvenation of a River Subjected to Overdraft and Heavy
+                Metal Pollution.
+              </>,
+              <>
+                <strong>Research Interests: </strong>Eco-hydrological modelling,
+                Phytoremediation, Jet Aeration Systems and Fluvial Hydraulics
+              </>,
+              "Email: dikshant_b@ce.iitr.ac.in",
+              "Co-supervisor : Dr. Sharad Kumar Jain",
+            ],
+            src: require("../assets/barghav.png"),
+            links: [
+              {
+                name: link_logos.web,
+                link: "https://sites.google.com/view/dikshantbodana/home",
+              },
+              // {
+              //   name: link_logos.google_scholar,
+              //   link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
+              // },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Dikshant-Bodana",
+              },
+              // {
+              //   name: link_logos.twitter,
+              //   link: "https://twitter.com/BargavReddy23 ",
+              // },
+            ],
+          }}
+        />
+        <MemTemplate
+          data={{
+            name: "Ankush",
+            designation: "",
+            description: [
+              <>
+                <strong> Thesis Title: </strong>Multivariate Non-stationary
+                Frequency Analysis of Hydrometeorological Variables.
+              </>,
+              // <>
+              //   <strong>Research Interests: </strong>Eco-hydrological modelling,
+              //   Phytoremediation, Jet Aeration Systems and Fluvial Hydraulics
+              // </>,
+              // "Email: dikshant_b@ce.iitr.ac.in",
+              "Co-supervisor : Prof. N. K. Goel ",
+            ],
+            src: require("../assets/barghav.png"),
+            links: [
+              {
+                name: link_logos.web,
+                link: "https://sites.google.com/view/dikshantbodana/home",
+              },
+              // {
+              //   name: link_logos.google_scholar,
+              //   link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
+              // },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Dikshant-Bodana",
+              },
+              // {
+              //   name: link_logos.twitter,
+              //   link: "https://twitter.com/BargavReddy23 ",
+              // },
+            ],
+          }}
+        />
+        <MemTemplate
+          data={{
             name: "Muskula Sai Bargav Reddy",
             designation: "",
             description: [
@@ -34,8 +109,6 @@ export default function TeamContainer() {
                 interactions, hydrometeorological extremes, earth system
                 modelling, Climate Change"
               </>,
-              "Email: muskula_sbr@ce.iitr.ac.in ",
-              "Phd Type: Full Time (Project)",
             ],
             src: require("../assets/barghav.png"),
             links: [
@@ -206,8 +279,8 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <strong> PhD Topic: </strong>Hydrometeorological extremes and
-                their influence on nutrient dynamic
+                <strong> Masters Thesis Title: </strong>Drought Characterization
+                and Propagation Under Changing Climate.
               </>,
               "Email: suneel_k@ce.iitr.ac.in",
             ],
@@ -226,16 +299,16 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <strong> PhD Topic: </strong>Hydrometeorological extremes and
-                their influence on nutrient dynamic
+                <strong> Masters Thesis Title: </strong>Non-Stationary Flood
+                Frequency Analysis: Refinement through Ensemble Empirical Mode
+                Decomposition
               </>,
-              "Email: suneel_k@ce.iitr.ac.in",
             ],
             src: require("../assets/doremon.png"),
             links: [
               {
-                name: "github",
-                link: "https://twitter.com/BargavReddy23 ",
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/mayanksinghgailakoti/",
               },
             ],
           }}
@@ -243,39 +316,18 @@ export default function TeamContainer() {
 
         <MemTemplate
           data={{
-            name: "Usman Aliakbar Mohseni",
+            name: "Akash Siddeshwar",
             designation: "",
             description: [
               <>
-                <strong>PhD Topic:</strong> Dynamic Risk Assessment of Compound
-                Hydrometeorological Extremes under Changing Climate"
+                <strong> Masters Thesis Title: </strong>Urban Flood Modeling
               </>,
-              <>
-                <strong>Research Interests: </strong>Compound extremes,
-                teleconnections, Climate change Impact, and the application of
-                hydrologic and hydraulic modelling in the field of water
-                resources
-              </>,
-              "Email: mohseni_ua@ce.iitr.ac.in",
-              "Phd Type: Full Time",
             ],
-            src: require("../assets/usmaan.png"),
+            src: require("../assets/doremon.png"),
             links: [
               {
                 name: link_logos.linkedin,
-                link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
-              },
-              {
-                name: link_logos.google_scholar,
-                link: "https://scholar.google.com/citations?hl=en&user=UUDfCzw6EsIC ",
-              },
-              {
-                name: link_logos.reasearch_gate,
-                link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
-              },
-              {
-                name: link_logos.twitter,
-                link: "https://x.com/M2291003030379 ",
+                link: "https://www.linkedin.com/in/akash-siddeshwar-23b440242",
               },
             ],
           }}

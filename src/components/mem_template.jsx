@@ -3,8 +3,8 @@ import React from "react";
 export default function MemTemplate({ data }) {
   return (
     <div>
-      <div className="memberbox" style={{ height: "800px" }}>
-        <div className="memimgbox"> 
+      <div className="memberbox">
+        <div className="memimgbox">
           <img className="memberimg" src={data.src} alt="" />
         </div>
         <div style={{ marginTop: "20px", padding: "5px 15px" }}>

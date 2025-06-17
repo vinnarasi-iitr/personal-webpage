@@ -1,205 +1,210 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-    --primary: #9F2042;
-    --secondary: #F8F4E1;
-    --emerald-green: #50C878;
-    --gold: #FFD700;
-    --sunburst: #FFFD37;
-    --neon-blue: #1B03A3;
-    --doger-blue: #1E90FF;
-    --vivid-blue: #007BFF;
-    /* purple shades */
-    --lavender: #E6E6FA;
-    --medium-orchid: #BA55D3;
-    --dark-violet: #9400D3;
+  --primary: #9f2042;
+  --secondary: #f8f4e1;
+  --emerald-green: #50c878;
+  --gold: #ffd700;
+  --sunburst: #fffd37;
+  --neon-blue: #1b03a3;
+  --doger-blue: #1e90ff;
+  --vivid-blue: #007bff;
+  /* purple shades */
+  --lavender: #e6e6fa;
+  --medium-orchid: #ba55d3;
+  --dark-violet: #9400d3;
 
-    /* 🔴 Red Shades */
-    --red-light: #f08080;
-    /* Light Coral */
-    --red-vibrant: #dc143c;
-    /* Crimson */
-    --red-dark: #b22222;
-    /* Firebrick */
+  /* 🔴 Red Shades */
+  --red-light: #f08080;
+  /* Light Coral */
+  --red-vibrant: #dc143c;
+  /* Crimson */
+  --red-dark: #b22222;
+  /* Firebrick */
 
-    /* 🟠 Orange Shades */
-    --orange-light: #fbceb1;
-    /* Apricot */
-    --orange-vibrant: #ffa500;
-    /* Orange (Web) */
-    --orange-dark: #ff8c00;
-    /* Dark Orange */
+  /* 🟠 Orange Shades */
+  --orange-light: #fbceb1;
+  /* Apricot */
+  --orange-vibrant: #ffa500;
+  /* Orange (Web) */
+  --orange-dark: #ff8c00;
+  /* Dark Orange */
 
-    /* 🟡 Yellow Shades */
-    --yellow-light: #fffacd;
-    /* Lemon Chiffon */
-    --yellow-vibrant: #ffff00;
-    /* Bright Yellow */
-    --yellow-dark: #daa520;
-    /* Goldenrod */
+  /* 🟡 Yellow Shades */
+  --yellow-light: #fffacd;
+  /* Lemon Chiffon */
+  --yellow-vibrant: #ffff00;
+  /* Bright Yellow */
+  --yellow-dark: #daa520;
+  /* Goldenrod */
 
-    /* 🟢 Green Shades */
-    --green-light: #98ff98;
-    /* Mint Green */
-    --green-vibrant: #32cd32;
-    /* Lime Green */
-    --green-dark: #228b22;
-    /* Forest Green */
+  /* 🟢 Green Shades */
+  --green-light: #98ff98;
+  /* Mint Green */
+  --green-vibrant: #32cd32;
+  /* Lime Green */
+  --green-dark: #228b22;
+  /* Forest Green */
 
-    /* 🔵 Blue Shades */
-    --blue-light: #87ceeb;
-    /* Sky Blue */
-    --blue-vibrant: #1e90ff;
-    /* Dodger Blue */
-    --blue-dark: #000080;
-    /* Navy */
+  /* 🔵 Blue Shades */
+  --blue-light: #87ceeb;
+  /* Sky Blue */
+  --blue-vibrant: #1e90ff;
+  /* Dodger Blue */
+  --blue-dark: #000080;
+  /* Navy */
 
-    /* 🟣 Purple Shades */
-    --purple-light: #e6e6fa;
-    /* Lavender */
-    --purple-vibrant: #ba55d3;
-    /* Medium Orchid */
-    --purple-dark: #9400d3;
-    /* Dark Violet */
+  /* 🟣 Purple Shades */
+  --purple-light: #e6e6fa;
+  /* Lavender */
+  --purple-vibrant: #ba55d3;
+  /* Medium Orchid */
+  --purple-dark: #9400d3;
+  /* Dark Violet */
 
-    /* 🟤 Brown / Warm Neutral Shades */
-    --brown-light: #f5deb3;
-    /* Wheat */
-    --brown-vibrant: #cd853f;
-    /* Peru */
-    --brown-dark: #8b4513;
-    /* Saddle Brown */
+  /* 🟤 Brown / Warm Neutral Shades */
+  --brown-light: #f5deb3;
+  /* Wheat */
+  --brown-vibrant: #cd853f;
+  /* Peru */
+  --brown-dark: #8b4513;
+  /* Saddle Brown */
 
-    /* ⚫ Gray / Black Shades */
-    --gray-light: #dcdcdc;
-    /* Gainsboro */
-    --gray-vibrant: #708090;
-    /* Slate Gray */
-    --gray-dark: #343434;
-    /* Jet Black */
+  /* ⚫ Gray / Black Shades */
+  --gray-light: #dcdcdc;
+  /* Gainsboro */
+  --gray-vibrant: #708090;
+  /* Slate Gray */
+  --gray-dark: #343434;
+  /* Jet Black */
 }
 
 .navbar {
-    display: flex;
-    position: sticky;
-    top: 0;
-    justify-content: space-between;
-    padding: 20px;
-    border-bottom: 2px solid black;
-    /* background-color: var(--purple-light); */
-    background-color: var(--primary);
-    color: var(--secondary);
-    /* background: linear-gradient(to right ,var(--blue-vibrant), var(--yellow-vibrant)); */
-
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid black;
+  /* background-color: var(--purple-light); */
+  background-color: var(--primary);
+  color: var(--secondary);
+  /* background: linear-gradient(to right ,var(--blue-vibrant), var(--yellow-vibrant)); */
 }
 
 .nav-title {
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 10px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px;
 }
 
 .nav-links {
-    font-size: 20px;
-    padding: 10px 20px;
-    cursor: pointer;
-    /* color: black; */
-    color: var(--secondary);
-    text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  /* color: black; */
+  color: var(--secondary);
+  text-decoration: none;
 
-    &:hover {
-        /* color: var(--red-dark); */
-        border-bottom: 2px solid purple;
-        background: linear-gradient(to top, var(--green-light), var(--purple-light));
-
-    }
+  &:hover {
+    /* color: var(--red-dark); */
+    border-bottom: 2px solid purple;
+    background: linear-gradient(
+      to top,
+      var(--green-light),
+      var(--purple-light)
+    );
+  }
 }
 
 .nav-link-container {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .content-container {
-    width: 100%;
-    /* height: 400px; */
-    padding-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  width: 100%;
+  /* height: 400px; */
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
-
 .info-container {
-    width: 50%;
-    min-width: min(400px, 95%);
-    padding: 30px;
-    height: 600px;
-    border: 2px solid black;
-    box-shadow: 0 0 10px var(--emerald-green);
-    border-radius: 20px;
-    overflow-y: scroll;
-    scrollbar-width: thin;
-    scroll-behavior: smooth;
-    margin: 20px auto;
+  width: 50%;
+  min-width: min(400px, 95%);
+  padding: 30px;
+  height: 600px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px var(--emerald-green);
+  border-radius: 20px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  margin: 20px auto;
 }
 
 .section-title {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: start;
-    color: rgb(227, 63, 14);
-    color: var(--vivid-blue);
+  font-size: 28px;
+  font-weight: 500;
+  text-align: start;
+  color: rgb(227, 63, 14);
+  color: var(--vivid-blue);
 }
 
 .title_2 {
-    font-size: 32px;
-    font-weight: 500;
+  font-size: 32px;
+  font-weight: 500;
 }
 
 .title_3 {
-    font-size: 20px;
-    color: gray;
-    font-weight: 500;
+  font-size: 20px;
+  color: gray;
+  font-weight: 500;
 }
 
 .text-1 {
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: start;
 }
 
 .text-2 {
-    font-size: 16px;
-    font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* text-align: start; */
-    color: grey;
-
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: start; */
+  color: grey;
 }
 
 .list-1 {
-    list-style: none;
-    text-align: start;
-    padding: 0;
-
+  list-style: none;
+  text-align: start;
+  padding: 0;
 }
 
 .profile-div {
-    position: relative;
-    width: 200px;
-    margin: 10px auto;
-    border-radius: 50%;
-    border: 10px solid transparent;
-    border-radius: 50%;
-    background: linear-gradient(white, white) padding-box,
-        linear-gradient(45deg, var(--emerald-green), var(--red-vibrant), var(--sunburst)) border-box;
-    /* border: 20px solid var(--emerald-green); */
+  position: relative;
+  width: 200px;
+  margin: 10px auto;
+  border-radius: 50%;
+  border: 10px solid transparent;
+  border-radius: 50%;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        45deg,
+        var(--emerald-green),
+        var(--red-vibrant),
+        var(--sunburst)
+      )
+      border-box;
+  /* border: 20px solid var(--emerald-green); */
 }
 
 /* .profile-div::before {
@@ -216,79 +221,78 @@
 } */
 
 .memberbox {
-    height: 370px;
-    width: 360px;
-    max-width: 100%;
-    margin: 0 20px 40px 20px;
-    box-shadow: 0 0 10px darkslategrey;
-    border-radius: 20px;
-    padding-bottom: 20px;
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 30%;
+  height: fit-content;
+  width: 360px;
+  max-width: 100%;
+  margin: 0 20px 40px 20px;
+  box-shadow: 0 0 10px darkslategrey;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 30%;
 }
 
 .memberimg {
-    max-width: 80%;
-    object-fit: contain;
-    margin: 10px;
-    max-height: 100%;
-    border-radius: 10px;
+  max-width: 80%;
+  object-fit: contain;
+  margin: 10px;
+  max-height: 100%;
+  border-radius: 10px;
 }
 
 .memimgbox {
-    height: 200px;
+  height: 200px;
 }
 
 .secondaryText {
-    font-size: 16px;
-    text-align: justify;
-    font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 500;
 }
 
 .mam-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 10%;
 }
 
 .profile-container {
-    flex: 1;
-    margin: 20px;
-    min-width: min(400px, 95%);
-    border: 2px solid black;
-    border-radius: 20px;
-
+  flex: 1;
+  margin: 20px;
+  min-width: min(400px, 95%);
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .description-container {
-    flex: 2;
-    margin: 30px;
-    min-width: 380px;
-    border: 2px solid black;
-    border-radius: 20px;
-    height: 500px;
+  flex: 2;
+  margin: 30px;
+  min-width: 380px;
+  border: 2px solid black;
+  border-radius: 20px;
+  height: 500px;
 }
 
 .sponser-updates-container {
-    display: flex;
-    padding: 20px 10%;
+  display: flex;
+  padding: 20px 10%;
 }
 
 .sponsers {
-    flex: 1;
-    margin: 20px;
-    height: 540px;
-    border: 2px solid black;
-    border-radius: 20px;
+  flex: 1;
+  margin: 20px;
+  height: 540px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
 
 .lab-updates {
-    flex: 1;
-    margin: 20px;
-    height: 540px;
-    border: 2px solid black;
-    border-radius: 20px;
+  flex: 1;
+  margin: 20px;
+  height: 540px;
+  border: 2px solid black;
+  border-radius: 20px;
 }

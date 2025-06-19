@@ -1,6 +1,10 @@
 import React from "react";
-import MemTemplate from "./mem_template";
-import MemTemplate1 from "./mem_template";
+import { MemTemplate } from "./mem_template";
+import { MemTemplate1 } from "./mem_template";
+import { MemTemplate2 } from "./mem_template";
+import { MemTemplate3 } from "./mem_template";
+import { MemTemplate4 } from "./mem_template";
+import { MemTemplate5 } from "./mem_template";
 
 export default function TeamContainer() {
   const link_logos = {
@@ -13,17 +17,18 @@ export default function TeamContainer() {
   };
   return (
     <div>
-      <p className="title_2">Phd Students</p>
+      <p className="title_2">PhD Students</p>
       <div
         style={{
           display: "flex",
+
           justifyContent: "space-evenly",
           flexWrap: "wrap",
           padding: "30px 5%",
         }}>
         <MemTemplate1
           data={{
-            name: "Dikshant Bodana",
+            name: "Dikshant Bodana (PMRF)",
             designation: "",
             description: [
               <>
@@ -56,7 +61,7 @@ export default function TeamContainer() {
         />
         <MemTemplate1
           data={{
-            name: "Ankush",
+            name: "Ankush (Part-Time)",
             designation: "",
             description: [
               <>
@@ -69,7 +74,16 @@ export default function TeamContainer() {
               // </>,
               // "Email: dikshant_b@ce.iitr.ac.in",
               <>
-                <strong>Co-supervisor :</strong> Prof. N. K. Goel
+                <strong>Research Interests: </strong>Hydrometeorological
+                Extremes, Teleconnections, Climate Change Impact, Disaster and
+                Risk Management and Water Resource Management
+              </>,
+              <>
+                <strong>Supervisor :</strong> Prof. N. K. Goel (Dept Of
+                Hydrology, IIT Roorkee)
+              </>,
+              <>
+                <strong>Co-supervisor :</strong> Prof. R. Vinnarasi
               </>,
             ],
             src: require("../assets/img/ankush.png"),
@@ -83,9 +97,10 @@ export default function TeamContainer() {
               //   link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
               // },
               // {
-              //   name: link_logos.reasearch_gate,
-              //   link: "https://www.researchgate.net/profile/Dikshant-Bodana",
-              // },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://scholar.google.com/citations?user=alkhyPkAAAAJ&hl=en",
+              },
               // {
               //   name: link_logos.twitter,
               //   link: "https://twitter.com/BargavReddy23 ",
@@ -95,7 +110,7 @@ export default function TeamContainer() {
         />
         <MemTemplate1
           data={{
-            name: "Pallavi Kumari",
+            name: "Pallavi Kumari (PMRF)",
             designation: "",
             description: [
               <>
@@ -139,7 +154,53 @@ export default function TeamContainer() {
 
         <MemTemplate1
           data={{
-            name: "Usman Aliakbar Mohseni",
+            name: " Vivek Tiwari",
+            designation: "",
+            description: [
+              <>
+                <strong> PhD Topic: </strong>Eco-hydrological Modeling for
+                Improving Water and Soil Quality through Best Agricultural
+                Management Practices: A Hindon Case study
+              </>,
+              <>
+                <strong>Research Interests: </strong> Nutrient Dynamics,
+                Eco-Hydrological Modelling, Soil & Water Quality, and
+                Agricultural Environmental Impacts.
+              </>,
+              // "Email:  vivek_t@wr.iitr.ac.in",
+              <>
+                <strong>Supervisor :</strong> Prof. Idhayachandhiran
+                Ilampooranan
+              </>,
+              <>
+                <strong>Co-supervisor :</strong> Prof. R. Vinnarasi
+              </>,
+            ],
+            src: require("../assets/img/vivek.jpg"),
+            links: [
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/sai-bargav-reddy-2257b2172/",
+              },
+              {
+                name: link_logos.google_scholar,
+                link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
+              },
+              {
+                name: link_logos.reasearch_gate,
+                link: "https://www.researchgate.net/profile/Sai-Muskula",
+              },
+              {
+                name: link_logos.twitter,
+                link: "https://twitter.com/BargavReddy23 ",
+              },
+            ],
+          }}
+        />
+
+        <MemTemplate1
+          data={{
+            name: "Usman Aliakbar Mohseni (PMRF)",
             designation: "",
             description: [
               <>
@@ -177,50 +238,6 @@ export default function TeamContainer() {
 
         <MemTemplate1
           data={{
-            name: " Vivek Tiwari",
-            designation: "",
-            description: [
-              <>
-                <strong> PhD Topic: </strong>Eco-hydrological Modeling for
-                Improving Water and Soil Quality through Best Agricultural
-                Management Practices: A Hindon Case study
-              </>,
-              <>
-                <strong>Research Interests: </strong> Dynamics of nitrogen and
-                phosphorus in the environment, their influence on soil and
-                water. Currently working on eco-hydrological models,
-                particularly the Soil and Water Assessment Tool (SWAT), to
-                analyze and predict the environmental impact of agricultural
-                practices.
-              </>,
-              // "Email:  vivek_t@wr.iitr.ac.in",
-              <>
-                <strong>Co-supervisor:</strong> Prof. R. Vinnarasi Rajendran
-              </>,
-            ],
-            src: require("../assets/img/vivek.jpg"),
-            links: [
-              {
-                name: link_logos.linkedin,
-                link: "https://www.linkedin.com/in/sai-bargav-reddy-2257b2172/",
-              },
-              {
-                name: link_logos.google_scholar,
-                link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
-              },
-              {
-                name: link_logos.reasearch_gate,
-                link: "https://www.researchgate.net/profile/Sai-Muskula",
-              },
-              {
-                name: link_logos.twitter,
-                link: "https://twitter.com/BargavReddy23 ",
-              },
-            ],
-          }}
-        />
-        <MemTemplate1
-          data={{
             name: " Muskula Sai Bargav Reddy",
             designation: "",
             description: [
@@ -229,9 +246,10 @@ export default function TeamContainer() {
                 their influence on nutrient dynamics
               </>,
               <>
-                <strong>Research Interests: </strong>Land atmospheric
-                interactions, hydrometeorological extremes, earth system
-                modelling, Climate Change
+                <strong>Research Interests: </strong>Land Atmospheric
+                Interactions, Hydrometeorological Extremes, Earth System
+                Modelling, Climate Change Impacts, Nutrient Dynamics,
+                Eco-Hydrological Modelling
               </>,
               // "Email: muskula_sbr@ce.iitr.ac.in ",
             ],
@@ -302,7 +320,7 @@ export default function TeamContainer() {
           flexWrap: "wrap",
           padding: "30px 5%",
         }}>
-        <MemTemplate
+        <MemTemplate2
           data={{
             name: "Misbah Zaidi",
             designation: "",
@@ -311,7 +329,14 @@ export default function TeamContainer() {
                 <strong> Masters Thesis Title: </strong>Flood Forecasting using
                 Hybrid Models
               </>,
-              // "Email: suneel_k@ce.iitr.ac.in",
+              <>
+                <strong>Research Interests: </strong>Downscaling, Urban
+                Hydrology
+              </>,
+              <>
+                <strong>Email: </strong>
+                misbah_z@ce.iitr.ac.in
+              </>,
             ],
             src: require("../assets/img/misbah.png"),
             links: [
@@ -322,7 +347,7 @@ export default function TeamContainer() {
             ],
           }}
         />
-        <MemTemplate
+        <MemTemplate2
           data={{
             name: "Akilesh Singh Yadav",
             designation: "",
@@ -332,15 +357,23 @@ export default function TeamContainer() {
                 for Dynamic Catchment Using VIC
               </>,
               <>
+                <strong>Research Interests: </strong>Extreme Hydrological
+                Events, Climate Change Impacts, and Hydrological Modelling
+              </>,
+              <>
                 <strong>Co-Guide :</strong> Dr Sunil Gurrapu NIH Roorkee
+              </>,
+              <>
+                <strong>Email: </strong>
+                akhilesh_sy@ce.iitr.ac.in
               </>,
             ],
             src: require("../assets/img/akilesh.png"),
             links: [
-              // {
-              //   name: link_logos.linkedin,
-              //   link: "https://www.linkedin.com/in/mayanksinghgailakoti/",
-              // },
+              {
+                name: link_logos.linkedin,
+                link: "https://www.linkedin.com/in/akhileshsy1/?originalSubdomain=in",
+              },
             ],
           }}
         />
@@ -360,7 +393,7 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <p>
-                <strong>Working Project</strong>: HiROS
+                <strong> Project</strong>: HiROS
               </p>,
               <p>
                 <strong>Date of Joining</strong>: 05/03/2025
@@ -374,22 +407,22 @@ export default function TeamContainer() {
             ],
             src: require("../assets/img/nikhil.png"),
             links: [
-              {
-                name: link_logos.linkedin,
-                link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
-              },
+              // {
+              //   name: link_logos.linkedin,
+              //   link: "https://www.linkedin.com/in/mohseni-usman-8a39775a/",
+              // },
               {
                 name: link_logos.google_scholar,
                 link: "https://scholar.google.com/citations?user=Nqag7SAAAAAJ&hl=en&oi=ao",
               },
-              {
-                name: link_logos.reasearch_gate,
-                link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
-              },
-              {
-                name: link_logos.twitter,
-                link: "https://x.com/M2291003030379 ",
-              },
+              // {
+              //   name: link_logos.reasearch_gate,
+              //   link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
+              // },
+              // {
+              //   name: link_logos.twitter,
+              //   link: "https://x.com/M2291003030379 ",
+              // },
             ],
           }}
         />
@@ -399,7 +432,7 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <p>
-                <strong>Working Project</strong>: HiROS
+                <strong> Project</strong>: HiROS
               </p>,
               <p>
                 <strong>Date of Joining</strong>: 09/06/2025
@@ -438,7 +471,7 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <p>
-                <strong>Working Project</strong>: HiROS
+                <strong> Project</strong>: HiROS
               </p>,
               <p>
                 <strong>Date Of Joining</strong>: 20/04/2022
@@ -466,10 +499,10 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <p>
-                <strong>Working Project</strong>: HiROS
+                <strong> Project</strong>: HiROS
               </p>,
               <p>
-                <strong>Date Of Joining</strong>: 01-11-2023
+                <strong>Date Of Joining</strong>: 01/11/2023
               </p>,
               <p>
                 <strong>Current position</strong>: Field Assistant
@@ -507,7 +540,7 @@ export default function TeamContainer() {
           flexWrap: "wrap",
           padding: "30px 5%",
         }}>
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Piyush Chavan",
             designation: "",
@@ -539,7 +572,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Bolapati Nithin Nathanael",
             designation: "",
@@ -571,7 +604,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Ishaa Mehra",
             designation: "",
@@ -596,7 +629,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Nikhil Goyal",
             designation: "",
@@ -621,14 +654,14 @@ export default function TeamContainer() {
             ],
           }}
         />
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Shakir Lala",
             designation: "",
             description: [
               <p>
-                <strong>Topic</strong>: Spatiotemporal Analysis of Land Use/Land
-                Cover Dynamics and Rainfall Shift Using High-Resolution Data
+                <strong>Topic</strong>: Development of Hydrological Model SWAT
+                for Adyar river catchment.
               </p>,
               <p>
                 <strong>Dept. of Civil Engineering, NIT Surat</strong>
@@ -637,7 +670,7 @@ export default function TeamContainer() {
                 <strong>Email</strong>: shakirlala119966@gmail.com
               </p>,
             ],
-            src: require("../assets/img/shakir.jpg"),
+            src: require("../assets/img/shakir.png"),
             links: [
               // {
               //   name: "github",
@@ -646,14 +679,14 @@ export default function TeamContainer() {
             ],
           }}
         />
-        <MemTemplate
+        <MemTemplate3
           data={{
             name: "Amit Khilariya",
             designation: "",
             description: [
               <p>
-                <strong>Topic</strong>: Spatiotemporal Analysis of Land Use/Land
-                Cover Dynamics and Rainfall Shift Using High-Resolution Data
+                <strong>Topic</strong>: Development of Heat Health Risk Index
+                for coastal, Hilly, and inland cities.
               </p>,
               <p>
                 <strong>Dept. of Civil Engineering, NIT Surat</strong>
@@ -690,7 +723,7 @@ export default function TeamContainer() {
           flexWrap: "wrap",
           padding: "30px 5%",
         }}>
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Dr. Abhishek",
             designation: "",
@@ -716,7 +749,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Dr. Krishna Chaitanya",
             designation: "",
@@ -728,8 +761,8 @@ export default function TeamContainer() {
                 <strong>Position Worked</strong>: Project Scientist-I
               </p>,
               <p>
-                <strong>Current Position</strong>: Assistant Professor, GATI
-                SHAKTI VISHWAVIDYALAYA
+                <strong>Current Position</strong>: Assistant Professor, Gati
+                Shakti Vishwavidyalaya
               </p>,
             ],
             src: require("../assets/img/krishna_chaitanya.png"),
@@ -742,7 +775,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Dr. Archana Majhi",
             designation: "",
@@ -753,7 +786,7 @@ export default function TeamContainer() {
                 Environment
               </p>,
               <p>
-                <strong>Position Worked</strong>: Project Scientist-I
+                <strong>Position Worked</strong>: Research Associate
               </p>,
             ],
             src: require("../assets/img/archana.png"),
@@ -765,8 +798,28 @@ export default function TeamContainer() {
             ],
           }}
         />
-
-        <MemTemplate
+        <MemTemplate4
+          data={{
+            name: "Sheetal Kumari",
+            designation: "",
+            description: [
+              <p>
+                <strong>Project Worked</strong>: HiROS
+              </p>,
+              <p>
+                <strong>Position Worked</strong>: Junior Research Fellow
+              </p>,
+            ],
+            src: require("../assets/img/sheetal.png"),
+            links: [
+              // {
+              //   name: "github",
+              //   link: "https://twitter.com/BargavReddy23 ",
+              // },
+            ],
+          }}
+        />
+        <MemTemplate4
           data={{
             name: "Nikhil Ghodichore",
             designation: "",
@@ -788,7 +841,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Mayank Singh Gailakoti",
             designation: "",
@@ -812,7 +865,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Saurav Raj",
             designation: "",
@@ -836,7 +889,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Sahir Azam Shad",
             designation: "",
@@ -860,7 +913,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Vijaya lakshmanan",
             designation: "",
@@ -872,7 +925,7 @@ export default function TeamContainer() {
                 <strong>Position Worked</strong>: Field Assistant
               </p>,
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/vijay.png"),
             links: [
               // {
               //   name: link_logos.linkedin,
@@ -882,7 +935,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Ankit Kumar ",
             designation: "",
@@ -904,7 +957,7 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate4
           data={{
             name: "Raj Kumar ",
             designation: "",
@@ -943,24 +996,22 @@ export default function TeamContainer() {
           flexWrap: "wrap",
           padding: "30px 5%",
         }}>
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: "Harshal ",
+            name: "Harshal (2020-2022)",
             designation: "",
             description: [
               <p>
-                <strong>Project Worked</strong>: Development Of a Generalized
-                Framework For Climate Informed Non-Stationary Extreme Event
-                Modelling
+                <strong>Master Thesis Title </strong>: Development Of a
+                Generalized Framework For Climate Informed Non-Stationary
+                Extreme Event Modelling
               </p>,
               <p>
-                <strong>
-                  Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                </strong>
+                <strong>Current Position :</strong>
               </p>,
-              <p>
-                <strong>Project Duration</strong>: 2020-2022
-              </p>,
+              // <p>
+              //   <strong>Project Duration</strong>: 2020-2022
+              // </p>,
             ],
             src: require("../assets/img/harshal.png"),
             links: [
@@ -972,25 +1023,23 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: "Aman Gupta ",
+            name: "Aman Gupta (2020-2022)",
             designation: "",
             description: [
               <p>
-                <strong>Project Worked</strong>: Drought Analysis under Climate
-                Change
+                <strong>Master Thesis Title </strong>: Drought Analysis under
+                Climate Change
               </p>,
               <p>
-                <strong>
-                  Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                </strong>
+                <strong>Current Position :</strong>
               </p>,
-              <p>
-                <strong>Project Duration</strong>: 2020-2022
-              </p>,
+              // <p>
+              //   <strong>Project Duration</strong>: 2020-2022
+              // </p>,
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: link_logos.linkedin,
@@ -1000,23 +1049,21 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: " Suneel Kumar ",
+            name: " Suneel Kumar (2021-2023)",
             designation: "",
             description: [
               <p>
-                <strong>Project Worked</strong>: Drought Characterisation and
-                Propagation Under Changing Climate
+                <strong>Master Thesis Title </strong>: Drought Characterisation
+                and Propagation Under Changing Climate
               </p>,
               <p>
-                <strong>
-                  Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                </strong>
+                <strong>Current Position :</strong>
               </p>,
-              <p>
-                <strong>Project Duration</strong>: 2021-2023
-              </p>,
+              // <p>
+              //   <strong>Project Duration</strong>: 2021-2023
+              // </p>,
             ],
             src: require("../assets/img/sunil.jpg"),
             links: [
@@ -1028,26 +1075,25 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: " Priyanka S ",
+            name: " Priyanka S (2021-2023)",
             designation: "",
             description: [
               <>
                 <p>
-                  <strong>Project Worked</strong>: Operation Model for Hydro
-                  Power Reservoir with Dynamic Hedging Integrated Rule Curve
+                  <strong>Master Thesis Title </strong>: Operation Model for
+                  Hydro Power Reservoir with Dynamic Hedging Integrated Rule
+                  Curve
                 </p>
 
                 <p>
-                  <strong>
-                    Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                  </strong>
+                  <strong>Current Position :</strong>
                 </p>
 
-                <p>
+                {/* <p>
                   <strong>Project Duration</strong>: 2021-2023
-                </p>
+                </p> */}
               </>,
             ],
             src: require("../assets/img/doremon.png"),
@@ -1060,24 +1106,22 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: "Mayank Singh Gailakoti",
+            name: "Mayank Singh Gailakoti (2022-2024)",
             designation: "",
             description: [
               <p>
-                <strong>Project Worked</strong>: Non-Stationary Flood Frequency
-                Analysis: Refinement through Ensemble Empirical Mode
+                <strong>Master Thesis Title </strong>: Non-Stationary Flood
+                Frequency Analysis: Refinement through Ensemble Empirical Mode
                 Decomposition
               </p>,
               <p>
-                <strong>
-                  Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                </strong>
+                <strong>Current Position :</strong> JRF, IIT Roorkee
               </p>,
-              <p>
-                <strong>Project Duration</strong>: 2022-2024
-              </p>,
+              // <p>
+              //   <strong>Project Duration</strong>: 2022-2024
+              // </p>,
             ],
             src: require("../assets/img/mayank.png"),
             links: [
@@ -1089,28 +1133,69 @@ export default function TeamContainer() {
           }}
         />
 
-        <MemTemplate
+        <MemTemplate5
           data={{
-            name: "Akash Siddeshwar",
+            name: "Akash Siddeshwar (2022-2024)",
             designation: "",
             description: [
               <p>
-                <strong>Project Worked</strong>: Urban Flood Modeling
+                <strong>Master Thesis Title </strong>: Urban Flood Modeling
               </p>,
               <p>
-                <strong>
-                  Dept. of Civil Engineering, IIT Roorkee (M.Tech)
-                </strong>
+                <strong>Current Position :</strong>Post Graduate Engineering
+                Trainee - L&T Construction
               </p>,
-              <p>
-                <strong>Project Duration</strong>: 2022-2024
-              </p>,
+              // <p>
+              //   <strong>Project Duration</strong>: 2022-2024
+              // </p>,
             ],
             src: require("../assets/img/akash.png"),
             links: [
               // {
               //   name: link_logos.linkedin,
               //   link: "https://www.linkedin.com/in/aakanksha-agrawal-680016214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+              // },
+            ],
+          }}
+        />
+      </div>
+      <h3
+        style={{
+          textAlign: "left",
+          // fontWeight: "bold",
+          marginTop: "20px",
+          paddingLeft: "10%",
+        }}>
+        Virtika (Skill Workshop)
+      </h3>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "start",
+          flexWrap: "wrap",
+          padding: "30px 10%",
+        }}>
+        <MemTemplate
+          data={{
+            name: "Mukesh Kumar Dey",
+            designation: "",
+            description: [
+              <p>
+                <strong>Topic</strong>: Unravelling the Cause and Evolution of
+                Meteorological Drought in India Under Changing Climate
+              </p>,
+              <p>
+                <strong>Institiute</strong>: NIT Raipur.
+              </p>,
+              <p>
+                <strong>Email</strong>: mukeshdey.bts@gmail.com
+              </p>,
+            ],
+            src: require("../assets/img/mukesh.png"),
+            links: [
+              // {
+              //   name: "github",
+              //   link: "https://twitter.com/BargavReddy23 ",
               // },
             ],
           }}
@@ -1134,21 +1219,20 @@ export default function TeamContainer() {
         }}>
         <MemTemplate
           data={{
-            name: "Sri Charan",
+            name: "Sree Charan Saravanan",
             designation: "",
             description: [
               <p>
-                <strong>Topic</strong>: Meteorological Drought Prediction using
-                Deep Learning Techniques in Krishna Basin, India
+                <strong>Topic</strong>: Low-Cost Telemetry
               </p>,
               <p>
-                <strong>IISER Kolkata</strong>
+                <strong>Institiute</strong>: IISER Kolkata
               </p>,
               <p>
-                <strong>Email</strong>: as21ms193@iiserkol.ac.in
+                <strong>Email</strong>: sreecharansaravanan@gmail.com
               </p>,
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/charan.png"),
             links: [
               // {
               //   name: "github",
@@ -1168,7 +1252,7 @@ export default function TeamContainer() {
                 Deep Learning Techniques in Krishna Basin, India
               </p>,
               <p>
-                <strong>IISER Kolkata</strong>
+                <strong>Institiute</strong>: IISER Kolkata
               </p>,
               <p>
                 <strong>Email</strong>: as21ms193@iiserkol.ac.in
@@ -1211,11 +1295,14 @@ export default function TeamContainer() {
                   Precipitation Trend Over India using EEMD
                 </p>
               </>,
-
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: sejal_s@ce.iitr.ac.in
+              </>,
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/female.png"),
             links: [
               // {
               //   name: "github",
@@ -1236,9 +1323,12 @@ export default function TeamContainer() {
                   Index using Coupled EEMD and LSTM
                 </p>
               </>,
-
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
+              <>
+                <strong>Institute</strong>: NIT Jalandhar
+              </>,
+              <>
+                <strong>Email </strong>:
+              </>,
             ],
             src: require("../assets/img/sifti.png"),
             links: [
@@ -1261,9 +1351,12 @@ export default function TeamContainer() {
                   in the Krishna Basin
                 </p>
               </>,
-
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: ajay_g@hy.iitr.ac.in
+              </>,
             ],
             src: require("../assets/img/ajay.png"),
             links: [
@@ -1285,9 +1378,12 @@ export default function TeamContainer() {
                   <strong>Topic</strong>: LSTM-based water quality prediction
                 </p>
               </>,
-
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: a_kushwah@ce.iitr.ac.in
+              </>,
             ],
             src: require("../assets/img/ayush.png"),
             links: [
@@ -1304,18 +1400,14 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Non Linear Trend Analysis of Soil
-                  Moisture across India
-                </p>
-
-                <p>
-                  <strong>TKM College of Engineering, Kollam</strong>
-                </p>
-
-                <p>
-                  <strong>Email</strong>: as21ms193@iiserkol.ac.in
-                </p>
+                <strong>Topic</strong>: Non Linear Trend Analysis of Soil
+                Moisture across India
+              </>,
+              <>
+                <strong>Institute</strong>: TKM College of Engineering, Kollam
+              </>,
+              <>
+                <strong>Email </strong>: kashmeera281@gmail.com
               </>,
             ],
             src: require("../assets/img/kashmeera.jpg"),
@@ -1334,18 +1426,14 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Non-Stationary Agricultural drought
-                  prediction for Krishna Basin
-                </p>
-
-                <p>
-                  <strong>TKM College of Engineering, Kollam</strong>
-                </p>
-
-                <p>
-                  <strong>Email</strong>:ambadijayakumar232@gmail.com
-                </p>
+                <strong>Topic</strong>: Non-Stationary Agricultural drought
+                prediction for Krishna Basin
+              </>,
+              <>
+                <strong>Institute</strong>: TKM College of Engineering, Kollam
+              </>,
+              <>
+                <strong>Email </strong>: ambadijayakumar232@gmail.com
               </>,
             ],
             src: require("../assets/img/ambadi.jpg"),
@@ -1364,18 +1452,14 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Non Linear Trend Analysis of Soil
-                  Moisture across India
-                </p>
-
-                <p>
-                  <strong>TKM College of Engineering, Kollam</strong>
-                </p>
-
-                <p>
-                  <strong>Email</strong>: sheeja903@gmail.com
-                </p>
+                <strong>Topic</strong>: Non Linear Trend Analysis of Soil
+                Moisture across India
+              </>,
+              <>
+                <strong>Institute</strong>: TKM College of Engineering, Kollam
+              </>,
+              <>
+                <strong>Email </strong>: sheeja903@gmail.com
               </>,
             ],
             src: require("../assets/img/suha.jpg"),
@@ -1393,19 +1477,14 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Multi-criteria analysis-based mapping
-                  of the cyclone-induced pluvial flooding in coastal areas of
-                  India
-                </p>
-
-                <p>
-                  <strong>IIT Roorkee</strong>
-                </p>
-
-                <p>
-                  <strong>Email</strong>: siritejavempati1317@gmail.com
-                </p>
+                <strong>Topic</strong>: Multi-criteria analysis-based mapping of
+                the cyclone-induced pluvial flooding in coastal areas of India
+              </>,
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: siritejavempati1317@gmail.com
               </>,
             ],
             src: require("../assets/img/sriteja.jpg"),
@@ -1423,15 +1502,14 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Analysis of Heat Index:
-                  ldentification, Trend, Characterization, and Spatial Variation
-                  Across India
-                </p>
-
-                <p>
-                  <strong>Email</strong>: shreyamittaliitr@gmail.com
-                </p>
+                <strong>Topic</strong>: Analysis of Heat Index: ldentification,
+                Trend, Characterization, and Spatial Variation Across India
+              </>,
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: shreyamittaliitr@gmail.com
               </>,
             ],
             src: require("../assets/img/shreya.png"),
@@ -1448,11 +1526,43 @@ export default function TeamContainer() {
             name: "Parul Kairo",
             designation: "",
             description: [
-              // "Topic : Non Linear Trend Analysis of Soil Moisture across India",
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
+              <>
+                <strong>Topic</strong>: Analysis of Heat Index: ldentification,
+                Trend, Characterization, and Spatial Variation Across India
+              </>,
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: kairoparul2311@gmail.com
+              </>,
             ],
             src: require("../assets/img/parul.png"),
+            links: [
+              // {
+              //   name: "github",
+              //   link: "https://twitter.com/BargavReddy23 ",
+              // },
+            ],
+          }}
+        />
+        <MemTemplate
+          data={{
+            name: "Shivani",
+            designation: "",
+            description: [
+              <>
+                <strong>Topic</strong>: Analysis of Heat Index: ldentification,
+                Trend, Characterization, and Spatial Variation Across India
+              </>,
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: svermaiitr@gmail.com
+              </>,
+            ],
+            src: require("../assets/img/shivani.png"),
             links: [
               // {
               //   name: "github",
@@ -1467,40 +1577,17 @@ export default function TeamContainer() {
             designation: "",
             description: [
               <>
-                <p>
-                  <strong>Topic</strong>: Multi-criteria analysis-based mapping
-                  of the cyclone-induced pluvial flooding in coastal areas of
-                  India
-                </p>
-
-                <p>
-                  <strong>IIT Roorkee</strong>
-                </p>
-
-                <p>
-                  <strong>Email</strong>: priyankajat0103@gmail.com
-                </p>
+                <strong>Topic</strong>: Multi-criteria analysis-based mapping of
+                the cyclone-induced pluvial flooding in coastal areas of India
+              </>,
+              <>
+                <strong>Institute</strong>: IIT Roorkee
+              </>,
+              <>
+                <strong>Email </strong>: priyankajat0103@gmail.com
               </>,
             ],
             src: require("../assets/img/priyanka.jpg"),
-            links: [
-              // {
-              //   name: "github",
-              //   link: "https://twitter.com/BargavReddy23 ",
-              // },
-            ],
-          }}
-        />
-        <MemTemplate
-          data={{
-            name: "Chotu ?",
-            designation: "",
-            description: [
-              // "Topic : Non Linear Trend Analysis of Soil Moisture across India",
-              // " TKM College of Engineering, Kollam",
-              // "Email: as21ms193@iiserkol.ac.in",
-            ],
-            src: require("../assets/img/doremon.png"),
             links: [
               // {
               //   name: "github",
@@ -1541,7 +1628,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1565,7 +1652,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1589,7 +1676,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1613,7 +1700,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1638,7 +1725,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1663,7 +1750,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1688,7 +1775,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/male.png"),
             links: [
               // {
               //   name: "github",
@@ -1713,7 +1800,7 @@ export default function TeamContainer() {
               // " TKM College of Engineering, Kollam",
               // "Email: as21ms193@iiserkol.ac.in",
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/female.png"),
             links: [
               // {
               //   name: "github",

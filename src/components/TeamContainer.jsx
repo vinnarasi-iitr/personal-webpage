@@ -395,9 +395,9 @@ export default function TeamContainer() {
               <p>
                 <strong> Project</strong>: HiROS
               </p>,
-              <p>
-                <strong>Date of Joining</strong>: 05/03/2025
-              </p>,
+              // <p>
+              //   <strong>Date of Joining</strong>: 05/03/2025
+              // </p>,
               <p>
                 <strong>Current position</strong>: Project Scientist-I
               </p>,
@@ -434,9 +434,9 @@ export default function TeamContainer() {
               <p>
                 <strong> Project</strong>: HiROS
               </p>,
-              <p>
-                <strong>Date of Joining</strong>: 09/06/2025
-              </p>,
+              // <p>
+              //   <strong>Date of Joining</strong>: 09/06/2025
+              // </p>,
               <p>
                 <strong>Current position</strong>: Junior Research Fellow
               </p>,
@@ -473,9 +473,9 @@ export default function TeamContainer() {
               <p>
                 <strong> Project</strong>: HiROS
               </p>,
-              <p>
-                <strong>Date Of Joining</strong>: 20/04/2022
-              </p>,
+              // <p>
+              //   <strong>Date Of Joining</strong>: 20/04/2022
+              // </p>,
               <p>
                 <strong>Current position</strong>: Field Assistant
               </p>,
@@ -501,9 +501,9 @@ export default function TeamContainer() {
               <p>
                 <strong> Project</strong>: HiROS
               </p>,
-              <p>
-                <strong>Date Of Joining</strong>: 01/11/2023
-              </p>,
+              // <p>
+              //   <strong>Date Of Joining</strong>: 01/11/2023
+              // </p>,
               <p>
                 <strong>Current position</strong>: Field Assistant
               </p>,

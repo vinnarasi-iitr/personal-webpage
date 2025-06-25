@@ -8,13 +8,37 @@ import { MemTemplate5 } from "./mem_template";
 
 export default function TeamContainer() {
   const link_logos = {
-    web: { tooltip:"Personal Website",id: "fa-solid fa-globe", color: "black" },
-    linkedin: { tooltip:"Linked in",id: "fa-brands fa-linkedin", color: "#0077B5" },
-    google_scholar: { tooltip:"Google Scholar",id: "fa-brands fa-google-scholar", color: "#4285F4" },
-    github: { tooltip:"Github",id: "fa-brands fa-square-github", color: "black" },
-    reasearch_gate: {tooltip:"Research Gate", id: "fa-brands fa-researchgate", color: "00ccbb" },
-    twitter: {tooltip:"Twitter / X", id: "fa-brands fa-x-twitter", color: "#000000" },
-    orcid: { tooltip:"ORC id",id:"fa-brands fa-orcid",color:'green' },
+    web: {
+      tooltip: "Personal Website",
+      id: "fa-solid fa-globe",
+      color: "black",
+    },
+    linkedin: {
+      tooltip: "Linked in",
+      id: "fa-brands fa-linkedin",
+      color: "#0077B5",
+    },
+    google_scholar: {
+      tooltip: "Google Scholar",
+      id: "fa-brands fa-google-scholar",
+      color: "#4285F4",
+    },
+    github: {
+      tooltip: "Github",
+      id: "fa-brands fa-square-github",
+      color: "black",
+    },
+    reasearch_gate: {
+      tooltip: "Research Gate",
+      id: "fa-brands fa-researchgate",
+      color: "00ccbb",
+    },
+    twitter: {
+      tooltip: "Twitter / X",
+      id: "fa-brands fa-x-twitter",
+      color: "#000000",
+    },
+    orcid: { tooltip: "ORC id", id: "fa-brands fa-orcid", color: "green" },
   };
   return (
     <div>
@@ -57,10 +81,6 @@ export default function TeamContainer() {
                 name: link_logos.reasearch_gate,
                 link: "https://www.researchgate.net/profile/Dikshant-Bodana",
               },
-              {
-                name: link_logos.orcid,
-                link:'',
-              }
             ],
           }}
         />
@@ -153,6 +173,10 @@ export default function TeamContainer() {
                 name: link_logos.twitter,
                 link: "https://x.com/Pallavikumari_?t=YLCs8e0H_tPELTCs7FrsaQ&s=08",
               },
+              {
+                name: link_logos.orcid,
+                link: "https://orcid.org/my-orcid?orcid=0000-0002-9519-1641",
+              },
             ],
           }}
         />
@@ -185,20 +209,20 @@ export default function TeamContainer() {
             links: [
               {
                 name: link_logos.linkedin,
-                link: "https://www.linkedin.com/in/sai-bargav-reddy-2257b2172/",
+                link: "https://www.linkedin.com/in/vivek9t7/",
               },
               {
                 name: link_logos.google_scholar,
-                link: "https://scholar.google.com/citations?user=NCCLB8wAAAAJ&hl=en ",
+                link: "https://scholar.google.com/citations?user=KB-_3UAAAAAJ&hl=en ",
               },
               {
                 name: link_logos.reasearch_gate,
-                link: "https://www.researchgate.net/profile/Sai-Muskula",
+                link: "https://www.researchgate.net/profile/Vivek-Tiwari-26?ev=hdr_xprf",
               },
-              {
-                name: link_logos.twitter,
-                link: "https://twitter.com/BargavReddy23 ",
-              },
+              // {
+              //   name: link_logos.twitter,
+              //   link: "https://twitter.com/BargavReddy23 ",
+              // },
             ],
           }}
         />
@@ -312,6 +336,10 @@ export default function TeamContainer() {
                 name: link_logos.reasearch_gate,
                 link: "https://www.researchgate.net/profile/Aakanksha-Agrawal?ev=hdr_xprf",
               },
+              {
+                name: link_logos.orcid,
+                link: "https://orcid.org/0009-0009-5496-9515",
+              },
             ],
           }}
         />
@@ -335,8 +363,8 @@ export default function TeamContainer() {
                 Hybrid Models
               </>,
               <>
-                <strong>Research Interests: </strong>Downscaling, Urban
-                Hydrology
+                <strong>Research Interests: </strong>Flood Modelling, Machine
+                Learning in Hydrology
               </>,
               <>
                 <strong>Email: </strong>
@@ -366,7 +394,7 @@ export default function TeamContainer() {
                 Events, Climate Change Impacts, and Hydrological Modelling
               </>,
               <>
-                <strong>Co-Guide :</strong> Dr Sunil Gurrapu NIH Roorkee
+                <strong>Co-Guide :</strong> Dr. Sunil Gurrapu, NIH Roorkee
               </>,
               <>
                 <strong>Email: </strong>
@@ -420,14 +448,10 @@ export default function TeamContainer() {
                 name: link_logos.google_scholar,
                 link: "https://scholar.google.com/citations?user=Nqag7SAAAAAJ&hl=en&oi=ao",
               },
-              // {
-              //   name: link_logos.reasearch_gate,
-              //   link: "https://www.researchgate.net/profile/Usman_Mohseni?ev=hdr_xprf",
-              // },
-              // {
-              //   name: link_logos.twitter,
-              //   link: "https://x.com/M2291003030379 ",
-              // },
+              {
+                name: link_logos.orcid,
+                link: "https://orcid.org/0000-0002-7298-2862",
+              },
             ],
           }}
         />
@@ -814,6 +838,10 @@ export default function TeamContainer() {
               <p>
                 <strong>Position Worked</strong>: Junior Research Fellow
               </p>,
+              <p>
+                <strong>Current Position :</strong> Ph.D. Graduate student
+                at Virginia Tech
+              </p>,
             ],
             src: require("../assets/img/sheetal.png"),
             links: [
@@ -1012,7 +1040,8 @@ export default function TeamContainer() {
                 Extreme Event Modelling
               </p>,
               <p>
-                <strong>Current Position :</strong>
+                <strong>Current Position :</strong> Assistant Engineer at
+                Maharashtra PWD
               </p>,
               // <p>
               //   <strong>Project Duration</strong>: 2020-2022
@@ -1038,7 +1067,7 @@ export default function TeamContainer() {
                 Climate Change
               </p>,
               <p>
-                <strong>Current Position :</strong>
+                <strong>Current Position :</strong>Senior consultant at Blend360
               </p>,
               // <p>
               //   <strong>Project Duration</strong>: 2020-2022
@@ -1101,7 +1130,7 @@ export default function TeamContainer() {
                 </p> */}
               </>,
             ],
-            src: require("../assets/img/doremon.png"),
+            src: require("../assets/img/female.png"),
             links: [
               // {
               //   name: link_logos.linkedin,
@@ -1553,7 +1582,7 @@ export default function TeamContainer() {
         />
         <MemTemplate
           data={{
-            name: "Shivani",
+            name: "Shivani Verma",
             designation: "",
             description: [
               <>

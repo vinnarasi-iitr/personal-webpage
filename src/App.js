@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 import Home from './components/home';
 import Research from './components/Research';
 import Gallery from './components/Gallery';
+import Tools from './components/Tools';
 
 function App() {
       return (
@@ -25,6 +26,7 @@ function App() {
                               <Route path='/publication' element={<Publications/>} />
                               <Route path='/research' element={<Research/>} />
                               <Route path='/gallary' element={<Gallery/>} /> 
+                              <Route path='/tools' element={<Tools/>} />
                         </Routes>
                         <Footer/>
                   </Router>

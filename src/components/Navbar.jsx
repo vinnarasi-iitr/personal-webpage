@@ -8,7 +8,7 @@ export default function Navbar() {
       <div>
         <div className="nav-title">
           {/* <img width='40px' style={{borderRadius:'50%',padding:'2px'}} src={require('../assets/werg-logo.png')} alt="" /> */}
-          <i class="fa-solid fa-cloud-showers-water"></i>
+          {/* <i class="fa-solid fa-cloud-showers-water"></i> */}
           Water Extremes Research Group
         </div>
       </div>
@@ -23,7 +23,7 @@ export default function Navbar() {
           <Link className="nav-links dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tools</Link>
           <ul class="dropdown-menu">
             <li><Link class="dropdown-item" to="/tools">Go to tools...</Link></li>
-            <li><a class="dropdown-item" href="#">WebTool for <br /> Design Flood Estimation</a></li>
+            <li><a class="dropdown-item" target='_blank' href="https://piyush-chavan.github.io/Intern_Project_Map_Basin/">Design Flood Estimation <br /> Webtool</a></li>
             <li><a class="dropdown-item" href="#">Another tool</a></li>
           </ul>
         </div>

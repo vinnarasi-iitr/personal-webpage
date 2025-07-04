@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React, { useEffect } from 'react'
 
 export default function Home() {
     useEffect(() => {
@@ -29,19 +29,72 @@ export default function Home() {
                             <i class="fa-solid fa-envelope"></i> vinnarasi@ce.iitr.ac.in <br />
                             <i class="fa-solid fa-globe"></i> faculty.iitr.ac.in/vinnarasi
                         </p>
-                        <p style={{ textAlign: 'start' }}>
-
-                            <a href='#' title='Personal Website'
-                                data-bs-toggle="tooltip" target='_blank' style={{ fontSize: '30px', marginRight: '20px', fontWeight: '500', color: 'black' }}><i class="fa-solid fa-globe"></i></a>
-                            <a href='#' title='Linked in'
-                                data-bs-toggle="tooltip" target='_blank' style={{ fontSize: '30px', marginRight: '20px', fontWeight: '500', color: '#0077B5' }}><i class="fa-brands fa-linkedin"></i></a>
-                            <a href='#' title='Google Scholar'
-                                data-bs-toggle="tooltip" target='_blank' style={{ fontSize: '30px', marginRight: '20px', fontWeight: '500', color: '#0077B5' }}><i class="fa-brands fa-google-scholar"></i></a>
-                            <a href='#' title='Github'
-                                data-bs-toggle="tooltip" target='_blank' style={{ fontSize: '30px', marginRight: '20px', fontWeight: '500', color: 'black' }}><i class="fa-brands fa-square-github"></i></a>
-                            <a href='#' title='Research Gate'
-                                data-bs-toggle="tooltip" target='_blank' style={{ fontSize: '30px', marginRight: '20px', fontWeight: '500', color: '#00ccbb' }}><i class="fa-brands fa-researchgate"></i></a>
-
+                        <p style={{ textAlign: "start" }}>
+                            <a
+                                href="http://faculty.iitr.ac.in/~vinnarasi/"
+                                title="Personal Website"
+                                data-bs-toggle="tooltip"
+                                target="_blank"
+                                style={{
+                                    fontSize: "30px",
+                                    marginRight: "20px",
+                                    fontWeight: "500",
+                                    color: "black",
+                                }}>
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                            <a
+                                href="https://www.linkedin.com/in/vinnarasi-rajendran-06325b1aa/"
+                                title="Linked in"
+                                data-bs-toggle="tooltip"
+                                target="_blank"
+                                style={{
+                                    fontSize: "30px",
+                                    marginRight: "20px",
+                                    fontWeight: "500",
+                                    color: "#0077B5",
+                                }}>
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a
+                                href="https://scholar.google.co.in/citations?user=slQCU7sAAAAJ&hl=en"
+                                title="Google Scholar"
+                                data-bs-toggle="tooltip"
+                                target="_blank"
+                                style={{
+                                    fontSize: "30px",
+                                    marginRight: "20px",
+                                    fontWeight: "500",
+                                    color: "#0077B5",
+                                }}>
+                                <i class="fa-brands fa-google-scholar"></i>
+                            </a>
+                            <a
+                                href="https://orcid.org/0000-0001-9834-6779"
+                                title="ORC id"
+                                data-bs-toggle="tooltip"
+                                target="_blank"
+                                style={{
+                                    fontSize: "30px",
+                                    marginRight: "20px",
+                                    fontWeight: "500",
+                                    color: "green",
+                                }}>
+                                <i class="fa-brands fa-orcid"></i>
+                            </a>
+                            <a
+                                href="https://www.researchgate.net/profile/Vinnarasi-Rajendran-3"
+                                title="Research Gate"
+                                data-bs-toggle="tooltip"
+                                target="_blank"
+                                style={{
+                                    fontSize: "30px",
+                                    marginRight: "20px",
+                                    fontWeight: "500",
+                                    color: "#00ccbb",
+                                }}>
+                                <i class="fa-brands fa-researchgate"></i>
+                            </a>
                         </p>
                     </div>
 

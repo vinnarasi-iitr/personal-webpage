@@ -38,7 +38,11 @@ export default function TeamContainer() {
       id: "fa-brands fa-x-twitter",
       color: "#000000",
     },
-    orcid: { tooltip: "ORC id", id: "fa-brands fa-orcid", color: "green" },
+    orcid: {
+      tooltip: "ORC id",
+      id: "fa-brands fa-orcid",
+      color: "green",
+    },
   };
   return (
     <div>

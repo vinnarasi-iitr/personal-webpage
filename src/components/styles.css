@@ -88,7 +88,7 @@
     position: sticky;
     top: 0;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px 20px;
     border-bottom: 2px solid var(--secondary);
     /* background-color: var(--purple-light); */
     background-color: var(--primary);

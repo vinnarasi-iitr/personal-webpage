@@ -85,7 +85,7 @@ export default function Team() {
             <img
               style={{ borderRadius: "50%" }}
               width="100%"
-              src={require("../assets//vinnarasi.png")}
+              src={require("../assets/vinnarasi.png")}
             />
           </div>
           <div>

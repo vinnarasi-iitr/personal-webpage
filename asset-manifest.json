@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.2cd4081f.css",
-    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.1535f650.js",
+    "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.d198c2f1.css",
+    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.286c47f7.js",
     "static/js/453.59888948.chunk.js": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js",
     "static/media/img-1.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-1.2838273bf0476f02b9c7.jpg",
     "static/media/img-2.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-2.3f81d28b6d4fc711ef5c.jpg",
@@ -49,12 +49,12 @@
     "static/media/srinivas.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/srinivas.ed4464128393a4033ffd.jpg",
     "static/media/abishek.png": "/Vinnarasi-R-portfolio-webpage/static/media/abishek.5af3b4dfa49f7cef1a6a.png",
     "static/media/akanksha.png": "/Vinnarasi-R-portfolio-webpage/static/media/akanksha.de841d82822eedb64c39.png",
-    "static/media/sahir.png": "/Vinnarasi-R-portfolio-webpage/static/media/sahir.b11bc0327b329dc8703b.png",
     "static/media/sheetal.png": "/Vinnarasi-R-portfolio-webpage/static/media/sheetal.affc1e3104f71822f58f.png",
     "static/media/sriteja.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/sriteja.e1447ef2656c41c81e09.jpg",
     "static/media/sunil.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/sunil.c2c313df486861527896.jpg",
     "static/media/pallavi.png": "/Vinnarasi-R-portfolio-webpage/static/media/pallavi.f9b9276a5be4b330d1a8.png",
     "static/media/ankush.png": "/Vinnarasi-R-portfolio-webpage/static/media/ankush.9de5e53507da901be5a5.png",
+    "static/media/sahir.png": "/Vinnarasi-R-portfolio-webpage/static/media/sahir.b460eccae50389a33926.png",
     "static/media/ankit.png": "/Vinnarasi-R-portfolio-webpage/static/media/ankit.e05a77ba9058b7c1a4ba.png",
     "static/media/harshal.png": "/Vinnarasi-R-portfolio-webpage/static/media/harshal.b4415e7feddfa7637ac1.png",
     "static/media/priyanka.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/priyanka.ffd6881e2fe5e6d0fa72.jpg",
@@ -64,7 +64,6 @@
     "static/media/rajkumar.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/rajkumar.a4ca9c335d63f9c18843.jpg",
     "static/media/tudelft_logo.png": "/Vinnarasi-R-portfolio-webpage/static/media/tudelft_logo.47212711bf567e59c329.png",
     "static/media/nrf_logo.png": "/Vinnarasi-R-portfolio-webpage/static/media/nrf_logo.12c6b7e0578eb9a2146a.png",
-    "static/media/doremon.png": "/Vinnarasi-R-portfolio-webpage/static/media/doremon.45a5c6e1bd77678890f6.png",
     "static/media/ankit_alumni.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/ankit_alumni.c0be22be33ed3b7f5a22.jpg",
     "static/media/wageningen-university-and-research-logo.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/wageningen-university-and-research-logo.94d295058b67783345c2.jpg",
     "static/media/cssri_logo.jpeg": "/Vinnarasi-R-portfolio-webpage/static/media/cssri_logo.bea0bbb439fbc040b687.jpeg",
@@ -72,12 +71,12 @@
     "static/media/iisc-banglore-logo.png": "/Vinnarasi-R-portfolio-webpage/static/media/iisc-banglore-logo.b7cd2f7781f629f07cf2.png",
     "static/media/dst-logo.webp": "/Vinnarasi-R-portfolio-webpage/static/media/dst-logo.71229b26e984dbbd5ad0.webp",
     "index.html": "/Vinnarasi-R-portfolio-webpage/index.html",
-    "main.2cd4081f.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.2cd4081f.css.map",
-    "main.1535f650.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.1535f650.js.map",
+    "main.d198c2f1.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.d198c2f1.css.map",
+    "main.286c47f7.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.286c47f7.js.map",
     "453.59888948.chunk.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd4081f.css",
-    "static/js/main.1535f650.js"
+    "static/css/main.d198c2f1.css",
+    "static/js/main.286c47f7.js"
   ]
 }

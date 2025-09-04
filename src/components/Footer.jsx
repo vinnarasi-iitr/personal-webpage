@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer() {
     return (
         <div>
-            <div style={{ width: '100%', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', padding: '20px 10%', backgroundColor: 'black', color: 'white' }}>
-                <div style={{ textAlign: 'center', flex: '1', minWidth: '400px' }}>
+            <div style={{ width: '100%', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', padding: '20px 10%', backgroundColor: 'var(--primary)', color: 'var(--secondary)' }}>
+                <div style={{ textAlign: 'center', flex: '1', minWidth: '300px',marginRight:'20px' }}>
 
                     <p className='title_2' style={{ textAlign: 'start' }}> <i class="fa-solid fa-location-dot"></i> Address</p>
                     <p className='secondaryText'>Room No. 228 <br />
@@ -14,7 +14,7 @@ export default function Footer() {
                         Uttarakhand, INDIA</p>
                     <br />
                 </div>
-                <div style={{ textAlign: 'center', flex: '1', minWidth: '400px' }}>
+                <div style={{ textAlign: 'center', flex: '1', minWidth: '300px' }}>
 
                     <p className='title_2' style={{ textAlign: 'start' }}> <i class="fa-solid fa-phone"></i> Contact</p>
                     <p className='secondaryText'>

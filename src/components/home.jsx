@@ -1,6 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
+import Achievements from './Achievements';
+import ResearchInterests from './ResearchInterests';
 
 export default function Home() {
+    const[more,setMore] = useState(false);
     useEffect(() => {
         // Initialize all tooltips
         const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
@@ -24,7 +27,7 @@ export default function Home() {
                             IIT Roorkee.
                         </p>
                     </div>
-                    <div style={{ textAlign: 'start', paddingLeft: '20%' }}>
+                    <div style={{ textAlign: 'start', paddingLeft: '10%' }}>
                         <p className='text-2'>
                             <i class="fa-solid fa-envelope"></i> vinnarasi@ce.iitr.ac.in <br />
                             <i class="fa-solid fa-globe"></i> faculty.iitr.ac.in/vinnarasi
@@ -104,7 +107,21 @@ export default function Home() {
                     <p className="text-1" style={{ padding: '20px', fontSize: '18px', fontWeight: '400', textAlign: 'justify' }}>
                         Dr. R. Vinnarasi is an Assistant Professor in the Department of Civil Engineering at IIT Roorkee. Before joining IIT Roorkee, she held academic positions at IIT Delhi and Sharda University. She earned her PhD in Water Resources Engineering from IIT Delhi, where she received the Distinction in Doctoral Research Award in 2019. Additionally, she was honoured with the Prof. U.C. Kothyari Best PhD Thesis Award 2020 by the Indian Society of Hydraulics at HYDRO 2020, NIT Rourkela, Odisha, India. At IIT Roorkee, Dr. Vinnarasi leads the Water Extremes Research Group, focusing on hydro-climatological extremes, regional hydrological modelling, hydrological hazards, water accounting, multivariate hydrological analysis, climate and ecological resilience, and the detection and attribution of extreme events.
                     </p>
+                <button className='btn btn-warning' onClick={()=>setMore(!more)}>{more?"Show less" :"Show more"}</button>
                 </div>
+                <br />
+                    {
+                        more?
+                    <div style={{display:'flex',flexWrap:'wrap',margin:'0 5%'}}>
+                        <div style={{flex:'1',padding:'30px'}}>
+                    <ResearchInterests/>
+                        </div>
+                        <div style={{flex:'2',padding:'30px'}}>
+                    <Achievements/>
+                        </div>
+                    </div>
+                    :null
+                    }
 
             </div>
             <div className="sponser-updates-container">
@@ -154,7 +171,11 @@ export default function Home() {
                     <p className="text-1">Dr. R. Vinnarasi joined IIT Roorkee as Assistant Professor - 15th June 2020.</p>
                 </div>
             </div>
-            <div className="home-image-container" style={{ backgroundColor: 'grey' }}>
+            <div style={{width:'60%',margin:'auto',boxShadow:'0 0 10px purple',borderRadius:'20px'}}>
+                <img style={{borderRadius:'20px'}} width='100%' src={require('../assets/homepage_img.png')} alt="" />
+            </div>
+            <br /><br />
+            {/* <div className="home-image-container" style={{ backgroundColor: 'grey' }}>
                 <div id="carouselExampleCaptions" class="carousel slide" style={{ height: '100%' }}>
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -219,7 +240,7 @@ export default function Home() {
                     </button>
                 </div>
 
-            </div>
+            </div> */}
         </div>
     )
 }

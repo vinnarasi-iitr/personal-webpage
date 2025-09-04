@@ -257,13 +257,17 @@
 .mam-container {
     position: relative;
     display: flex;
-    justify-content: space-between;
+    max-width: 100%;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 5px;
     box-shadow: 0 0 10px black;
     border-radius: 20px;
-    margin: 10px 10%;
+    margin: 10px 30px;
+    /* background: linear-gradient(135deg, #ffecd2, #fcb69f); */
+    /* background: linear-gradient(120deg, #89f7fe, #66a6ff); */
+    background: radial-gradient(circle at center, #ffffff 0%, #dc93a6 100%);
 }
 
 /* .mam-container::before {
@@ -278,17 +282,18 @@
 } */
 
 .profile-container {
-    flex: 1;
-    margin: 20px;
-    min-width: 380px;
+    max-width: min(100%,600px);
+    margin: 8px;
+    padding: 16px 30px;
+    background-color: rgba(255, 255, 255, 0.214);
+    backdrop-filter: blur(10px);
     border: 2px solid black;
     border-radius: 20px;
 }
 
 .description-container {
-    flex: 2;
-    margin: 30px;
-    min-width: 380px;
+    margin: 10px;
+    max-width: min(100%,600px);
     /* border: 2px solid black; */
     border-radius: 20px;
     /* height: 500px; */
@@ -296,22 +301,25 @@
 
 .sponser-updates-container {
     display: flex;
-    padding: 20px 10%;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 20px 0;
 }
 
 .sponsers {
-    flex: 1;
     margin: 20px;
     padding: 20px;
-    height: 540px;
+    max-width: min(100%,600px);
+    height: fit-content;
     border: 2px solid black;
     border-radius: 20px;
 }
 
 .lab-updates {
-    flex: 1;
     margin: 20px;
     height: 540px;
+    max-width: min(100%,600px);
     border: 2px solid black;
     border-radius: 20px;
     padding: 20px;
@@ -319,16 +327,41 @@
 }
 
 .home-image-container {
-    margin: 20px 10%;
-    height: 400px;
+    margin: 20px auto;
+    aspect-ratio: 16/9;
+    max-width: 1080px;
     border: 2px solid black;
     border-radius: 20px;
 }
 
 .gal-img-box {
-    max-width: 600px;
+    max-width: min(600px,100%);
     padding: 10px;
     border: 2px solid black;
     border-radius: 20px;
     margin: 16px;
 }
+.pub {
+      margin-bottom: 22px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid #000000;
+    }
+    .title {
+      font-size: 16px;
+      color: #1a0dab;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .authors {
+      font-size: 14px;
+      color: #5f6368;
+    }
+    .venue {
+      font-size: 14px;
+      color: #202124;
+      font-style: italic;
+    }
+    .meta {
+      font-size: 13px;
+      color: #70757a;
+    }

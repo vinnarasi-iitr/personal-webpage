@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.216b582f.css",
-    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.09d0ff83.js",
+    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.943afe8e.js",
     "static/js/453.59888948.chunk.js": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js",
     "static/media/img-1.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-1.2838273bf0476f02b9c7.jpg",
     "static/media/img-2.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-2.3f81d28b6d4fc711ef5c.jpg",
@@ -71,11 +71,11 @@
     "static/media/dst-logo.webp": "/Vinnarasi-R-portfolio-webpage/static/media/dst-logo.71229b26e984dbbd5ad0.webp",
     "index.html": "/Vinnarasi-R-portfolio-webpage/index.html",
     "main.216b582f.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.216b582f.css.map",
-    "main.09d0ff83.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.09d0ff83.js.map",
+    "main.943afe8e.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.943afe8e.js.map",
     "453.59888948.chunk.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.216b582f.css",
-    "static/js/main.09d0ff83.js"
+    "static/js/main.943afe8e.js"
   ]
 }

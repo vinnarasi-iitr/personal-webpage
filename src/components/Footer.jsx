@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div>
             <div style={{ width: '100%', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', padding: '20px 10%', backgroundColor: 'var(--primary)', color: 'var(--secondary)' }}>
-                <div style={{ textAlign: 'center', flex: '1', minWidth: '300px',marginRight:'20px' }}>
+                <div style={{ textAlign: 'center', flex: '1', minWidth: '300px', marginRight: '20px' }}>
 
                     <p className='title_2' style={{ textAlign: 'start' }}> <i class="fa-solid fa-location-dot"></i> Address</p>
                     <p className='secondaryText'>Room No. 228 <br />
@@ -21,6 +21,22 @@ export default function Footer() {
                         <i class="fa-solid fa-phone"></i> (O) 91-1332-284951 <br />
                         <i class="fa-solid fa-phone"></i> (R) +91-1332-286951 (IP) <br />
                         <i class="fa-solid fa-envelope"></i> vinnarasi@ce.iitr.ac.in</p>
+
+                    <div style={{display:'flex'}}>
+                        <div style={{margin:'20px'}}>
+
+                        <p className="title" style={{color:'var(--secondary)'}}>Page Views </p>
+                        <a href="https://www.hitwebcounter.com/" target="_blank">
+                            <img src="https://hitwebcounter.com/counter/counter.php?page=21437162&style=0010&nbdigits=6&type=page&initCount=0" title="Compress" Alt="Compress" border="0" /></a>
+                        </div>
+                        <div style={{margin:'20px'}}>
+
+
+                        <p className="title" style={{color:'var(--secondary)'}}>Unique Visitors :</p>
+                        <a href="https://www.hitwebcounter.com/" target="_blank">
+                            <img src="https://hitwebcounter.com/counter/counter.php?page=21437163&style=0010&nbdigits=6&type=ip&initCount=0" title="Compress" Alt="Compress" border="0" /></a>
+                        </div>
+                    </div>
                 </div>
                 <div style={{ textAlign: 'start', display: 'flex', flex: '2' }}>
                     <div style={{ marginRight: '30px' }}>

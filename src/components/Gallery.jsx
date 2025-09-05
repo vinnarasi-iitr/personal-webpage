@@ -35,7 +35,7 @@ export default function Gallery() {
               </div>
             </div>
             <div class="carousel-item" style={{ height: '100%' }}>
-              <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-4.jpg')} class="d-block" alt="..." />
+              <img style={{ borderRadius: '20px', margin: 'auto' }} height='100%' src={require('../assets/gallery-images/img-2.jpg')} class="d-block" alt="..." />
               <div class="carousel-caption d-none d-md-block">
               </div>
             </div>

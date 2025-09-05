@@ -257,6 +257,7 @@
 .mam-container {
     position: relative;
     display: flex;
+    width: max(600px, 80%); 
     max-width: 100%;
     justify-content: space-evenly;
     align-items: center;
@@ -264,7 +265,7 @@
     padding: 20px 5px;
     box-shadow: 0 0 10px black;
     border-radius: 20px;
-    margin: 10px 30px;
+    margin: 10px auto;
     /* background: linear-gradient(135deg, #ffecd2, #fcb69f); */
     /* background: linear-gradient(120deg, #89f7fe, #66a6ff); */
     background: radial-gradient(circle at center, #ffffff 0%, #dc93a6 100%);
@@ -282,7 +283,7 @@
 } */
 
 .profile-container {
-    max-width: min(100%,600px);
+    max-width: min(100%, 600px);
     margin: 8px;
     padding: 16px 30px;
     background-color: rgba(255, 255, 255, 0.214);
@@ -293,7 +294,7 @@
 
 .description-container {
     margin: 10px;
-    max-width: min(100%,600px);
+    max-width: min(100%, 600px);
     /* border: 2px solid black; */
     border-radius: 20px;
     /* height: 500px; */
@@ -310,7 +311,7 @@
 .sponsers {
     margin: 20px;
     padding: 20px;
-    max-width: min(100%,600px);
+    max-width: min(100%, 600px);
     height: fit-content;
     border: 2px solid black;
     border-radius: 20px;
@@ -319,11 +320,13 @@
 .lab-updates {
     margin: 20px;
     height: 540px;
-    max-width: min(100%,600px);
+    max-width: min(100%, 600px);
     border: 2px solid black;
     border-radius: 20px;
-    padding: 20px;
+    padding: 0 20px 20px 20px;
     overflow-y: scroll;
+    scroll-behavior: smooth;
+    text-align: start;
 }
 
 .home-image-container {
@@ -335,33 +338,65 @@
 }
 
 .gal-img-box {
-    max-width: min(600px,100%);
+    max-width: min(600px, 100%);
     padding: 10px;
     border: 2px solid black;
     border-radius: 20px;
     margin: 16px;
 }
+
 .pub {
-      margin-bottom: 22px;
-      padding-bottom: 12px;
-      border-bottom: 1px solid #000000;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #000000;
+}
+
+.title {
+    font-size: 16px;
+    color: #1a0dab;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.authors {
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.venue {
+    font-size: 14px;
+    color: #202124;
+    font-style: italic;
+}
+
+.meta {
+    font-size: 13px;
+    color: #70757a;
+}
+.year {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: var(--primary);
+      background: linear-gradient(to right , var(--secondary),var(--primary));
     }
-    .title {
-      font-size: 16px;
-      color: #1a0dab;
+    .updates {
+      list-style-type: disc;
+      padding-left: 25px;
+      margin-bottom: 20px;
       font-weight: 500;
+    }
+    .update-item {
+      font-size: 16px;
+      margin-bottom: 8px;
+      line-height: 1.5;
+      color: #444;
+    }
+    .update-item a {
+      color: #0066cc;
       text-decoration: none;
     }
-    .authors {
-      font-size: 14px;
-      color: #5f6368;
-    }
-    .venue {
-      font-size: 14px;
-      color: #202124;
-      font-style: italic;
-    }
-    .meta {
-      font-size: 13px;
-      color: #70757a;
+    .update-item a:hover {
+      text-decoration: underline;
     }

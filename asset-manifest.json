@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.216b582f.css",
-    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.943afe8e.js",
+    "main.css": "/Vinnarasi-R-portfolio-webpage/static/css/main.7fb86908.css",
+    "main.js": "/Vinnarasi-R-portfolio-webpage/static/js/main.1fd9a7ff.js",
     "static/js/453.59888948.chunk.js": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js",
     "static/media/img-1.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-1.2838273bf0476f02b9c7.jpg",
     "static/media/img-2.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-2.3f81d28b6d4fc711ef5c.jpg",
@@ -35,7 +35,6 @@
     "static/media/archana.png": "/Vinnarasi-R-portfolio-webpage/static/media/archana.af0b24899c0383b7772e.png",
     "static/media/nithin.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/nithin.17a92f62935f808997bc.jpg",
     "static/media/Nikhil_goyal.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/Nikhil_goyal.6112129d3b6bbd780aee.jpg",
-    "static/media/img-4.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-4.36ad3951f750e6d14e12.jpg",
     "static/media/suha.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/suha.6c10c3850cdf2b44cbb9.jpg",
     "static/media/shakir.png": "/Vinnarasi-R-portfolio-webpage/static/media/shakir.1e12a273760fba8b83ed.png",
     "static/media/img-3.jpg": "/Vinnarasi-R-portfolio-webpage/static/media/img-3.905992943806ccbdc289.jpg",
@@ -70,12 +69,12 @@
     "static/media/iisc-banglore-logo.png": "/Vinnarasi-R-portfolio-webpage/static/media/iisc-banglore-logo.b7cd2f7781f629f07cf2.png",
     "static/media/dst-logo.webp": "/Vinnarasi-R-portfolio-webpage/static/media/dst-logo.71229b26e984dbbd5ad0.webp",
     "index.html": "/Vinnarasi-R-portfolio-webpage/index.html",
-    "main.216b582f.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.216b582f.css.map",
-    "main.943afe8e.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.943afe8e.js.map",
+    "main.7fb86908.css.map": "/Vinnarasi-R-portfolio-webpage/static/css/main.7fb86908.css.map",
+    "main.1fd9a7ff.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/main.1fd9a7ff.js.map",
     "453.59888948.chunk.js.map": "/Vinnarasi-R-portfolio-webpage/static/js/453.59888948.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.216b582f.css",
-    "static/js/main.943afe8e.js"
+    "static/css/main.7fb86908.css",
+    "static/js/main.1fd9a7ff.js"
   ]
 }

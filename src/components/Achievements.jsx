@@ -8,7 +8,7 @@ export default function Achievements() {
             <ul className="text-1 list-1" style={{fontSize:'1rem',listStyle:'circle'}}>
                 <li> Distinction in Doctoral Research, Awarded by Indian Institute of Technology Delhi, India for the year 2017</li> <br />
                 <li> Prof. U.C. Kothyari Best PhD Thesis Award 2020, Indian Society of Hydraulics, in HYDRO 2020, IIT Roorkee, Roorkee, Indias</li> <br />
-                <li> Award for Best Poster Presentation, “Dynamic Catchments: Spatial Variability of Dimensional and Temporal Extremes over Diverse Climatic Regimes”, Poster Presentation in AGU Fall Meeting 2016, San Francisco, USA</li> <br />
+                <li> Student Travel Grant for Presenting the Poster, “Dynamic Catchments: Spatial Variability of Dimensional and Temporal Extremes over Diverse Climatic Regimes”, in AGU Fall Meeting 2016, San Francisco, USA</li> <br />
                 <li> Awarded Certificate of Appreciation for paper “Examining spatio-temporal variations of extreme monsoonal rainfall using high resolution daily data”, Open House 2016 at IIT Delhi</li> <br />
 
 

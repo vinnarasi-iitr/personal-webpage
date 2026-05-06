@@ -176,7 +176,7 @@ export default function Home() {
                 </div>
                 <div ref={scrollRef} className="lab-updates">
                     <p style={{ textAlign: 'center', position: 'sticky', top: 0, backgroundColor: '#ffffffff' }} className="section-title">Lab Updates</p>
-                    {/* <p className="title_4">2025</p>
+                    <p className="title_4">2025</p>
                     <p className="title_4">2024</p>
                     <p className="title_4">2023</p>
                     <p className="text-1">Mr.  Muskula Sai Bargav Reddy joins the research group as a PhD student - Jan 2023</p>
@@ -188,7 +188,19 @@ export default function Home() {
                     <p className="text-1">Mr. Dikshant Bodana joins the research group as a PhD student - July 2021</p>
                     <p className="title_4">2020</p>
                     <p className="text-1">Mr. Ankush joins the research group as a PhD student (Co-guide) - July 2020</p>
-                    <p className="text-1">Dr. R. Vinnarasi joined IIT Roorkee as Assistant Professor - 15th June 2020.</p> */}
+                    <p className="text-1">Dr. R. Vinnarasi joined IIT Roorkee as Assistant Professor - 15th June 2020.</p>
+                    
+                    <div class="year">2025</div>
+                    <ul class="updates">
+                        <li class="update-item">Mr. Dikshant Bodana presented his work titled “The Hidden Cost of Agriculture: Groundwater Overdraft and Nutrient Pollution in the Hindon Basin” at the 22nd Annual Meeting of the Asia Oceania Geosciences Society (AOGS 2025).</li>
+                        <li class="update-item">Mr. Vivek Tiwari presented his work titled “Evaluating Non-Point Source Pollution in the Indo-Gangetic Plains: A Case Study of the Hindon River, India AOGS (2025).</li>
+                        <li class="update-item">Ms. Pallavi Kumari presented her work titled: “A Strategic Framework for Detection and Analysis”, AOGS2025, Singapore, 27 July–1 August 2025 (Abstract accepted for oral presentation).</li>
+                        <li class="update-item">Mr. Usman Mohseni presented his work titled: “When Day Meets Night: Unravelling the Hotspots of Compound Heat Stress in India”, AOGS2025, Singapore, 27 July–1 August 2025 (Abstract accepted for oral presentation).</li>
+                        <li class="update-item">Ms. Pallavi Kumari presented her work titled: “Enhanced Modulation of Rapid/Flash Drought in India: An Elegant Framework”, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, <a href="https://doi.org/10.5194/egusphere-egu25-705" target="_blank">EGU25-705</a>.</li>
+                        <li class="update-item">Mr. Usman Mohseni presented his work titled “A Copula Framework for the Development of an Integrated Heat Index and Joint Return Period Analysis”, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, <a href="https://doi.org/10.5194/egusphere-egu25-18878" target="_blank">EGU25-18878</a> (On-site Poster).</li>
+                        <li class="update-item">Mr. Muskula Sai Bargav Reddy presented his work titled “Analyzing the Historical and Projected Evolution of the Global Diurnal Temperature Range (DTR)”, EGU General Assembly 2025, Vienna, Austria, 27 Apr–2 May 2025, <a href="https://doi.org/10.5194/egusphere-egu25-18740" target="_blank">EGU25-18740</a> (Online Oral Presentation).</li>
+                        <li class="update-item">Mr. Ankush published his research work titled: “Integrating regionalisation, uncertainty, and nonstationarity in modelling extreme rainfall events in India”. Journal of Environmental Management, 376, 124377.</li>
+                    </ul>
 
                     <div class="year">2025</div>
                     <ul class="updates">
